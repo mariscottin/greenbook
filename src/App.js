@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
+import MainNavigation from './components/MainNavigation';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Green-Goods</h1>
-      <h3>A romperla papá!</h3>
+      <MainNavigation />
     </div>
   );
 }
