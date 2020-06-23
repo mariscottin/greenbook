@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../Assets/img/GreenBookAcademy.Logo.gif';
+import EnglishFlag from '../Assets/img/usa.flag.png'
 
 import Navlinks from './Navlinks';
 import BackDrop from './Backdrop';
@@ -31,25 +32,30 @@ const MainNavigation = () => {
             </SideDrawer>
 
             <div className='main-header'>
-                <button className="main-navigation__menu-btn" onClick={openDrawerHandler}>
-                    <span />
-                    <span />
-                    <span />
-                </button>
-                <div className="main-navigation__title">
-                    <Link
-                        activeClass="active"
-                        to="homeSection"
-                        spy={true}
-                        smooth={true}
-                        duration={700}
-                        className="nav-link">
-                        <img src={Logo} alt="Logo Rhinotech" />
-                    </Link>
+                <div className="main-header__container">
+                    <button className="main-navigation__menu-btn" onClick={openDrawerHandler}>
+                        <span />
+                        <span />
+                        <span />
+                    </button>
+                    <div className="main-navigation__title">
+                        <Link
+                            activeClass="active"
+                            to="coverSection"
+                            spy={true}
+                            smooth={true}
+                            duration={700}
+                            className="nav-link">
+                            <img src={Logo} alt="Logo Rhinotech" />
+                        </Link>
+                    </div>
+                    <nav className="main-navigation__header-nav">
+                        <div className="main-navigation__header-links">
+                            <Navlinks closeDrawerHandler={closeDrawerHandler}/>
+                        </div>
+                    </nav>
+
                 </div>
-                <nav className="main-navigation__header-nav">
-                    <Navlinks closeDrawerHandler={closeDrawerHandler}/>
-                </nav>
             </div>
         </React.Fragment>
     );

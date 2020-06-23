@@ -1,0 +1,46 @@
+.approach__section{
+    padding: 92.9px 93.1px 92.9px 105px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.approach-container{
+    width: 85%;
+    margin: auto;
+}
+
+.approach__row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.approach__col-1{
+    width: 40%;
+}
+
+.approach__img-container{
+    width: 100%;
+}
+
+.approach__img-container img{
+    width: 411px;
+    height: 479px;
+}
+
+.approach__col-2{
+    margin-left: 63.3px;
+}
+
+.approach__col-2 .green-line{
+    width: 46.8px;
+    height: 6.8px;
+    background-color: rgb(51, 173, 135);
+}
+
+.approach__col-2 h4{
+    margin-top: 14.6px;
+    font-size: 23px;
+    color: #5d5d5d;
+}
+

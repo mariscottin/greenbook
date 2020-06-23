@@ -13,7 +13,7 @@ const NavLinks = props => {
             <li>
                 <Link
                     activeClass="active"
-                    to="servicesSection"
+                    to="blabla"
                     spy={true}
                     smooth={true}
                     duration={700}
@@ -36,7 +36,7 @@ const NavLinks = props => {
                     {t('header-2')}
                     </Link>
             </li>
-            <li>
+            <li className="last-navlink">
                 <Link
                     activeClass="active"
                     to="methodSection"
@@ -49,7 +49,6 @@ const NavLinks = props => {
                     {t('header-3')}
                     </Link>
             </li>
-
         </ul>
     )
 }
