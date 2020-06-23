@@ -13,7 +13,7 @@ const NavLinks = props => {
             <li>
                 <Link
                     activeClass="active"
-                    to="blabla"
+                    to="approachSection"
                     spy={true}
                     smooth={true}
                     duration={700}
