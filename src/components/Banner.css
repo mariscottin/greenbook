@@ -1,0 +1,43 @@
+.banner__section{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    background: rgb(51, 173, 135);
+    color: #ffffff;
+    height: 265.4px;
+    position: relative;
+}
+
+.banner__container{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner__container h1{
+    font-size: 51px;
+    font-weight: lighter;
+}
+
+@media(max-width: 991px){
+    .banner__section{
+        padding: 20px 0;
+    }
+    .banner__container h1{
+        font-size: 42px;
+    }
+}
+
+@media(max-width: 767px){
+    .banner__container h1{
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 480px){
+    .banner__container h1{
+        font-size: 24px;
+    }
+}

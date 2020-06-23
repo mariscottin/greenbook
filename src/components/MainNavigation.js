@@ -2,14 +2,23 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../Assets/img/GreenBookAcademy.Logo.gif';
 import EnglishFlag from '../Assets/img/usa.flag.png'
+import SpainFlag from '../Assets/img/spainflag.png'
+import PortugalFlag from '../Assets/img/portugalflag.png'
 
 import Navlinks from './Navlinks';
 import BackDrop from './Backdrop';
 import SideDrawer from './SideDrawer';
 
+import i18n from '../i18n';
+
 import './MainNavigation.css';
 
 const MainNavigation = () => {
+
+    const changeLanguage = code => {
+        i18n.changeLanguage(code);
+    }
+
     const [drawerIsOpen, setDrawerIsOpen] = useState(false);
     
     const openDrawerHandler = () => {
@@ -54,7 +63,11 @@ const MainNavigation = () => {
                             <Navlinks closeDrawerHandler={closeDrawerHandler}/>
                         </div>
                     </nav>
-
+                    <div className="country-flags__container">
+                        <div className="english" onClick={()=> changeLanguage('en')}>EN<span><img src={EnglishFlag} alt="English"/></span></div>
+                        <div className="spanish" onClick={()=> changeLanguage('es')}>ES<span><img src={SpainFlag} alt="English"/></span></div>
+                        <div className="portuguese" onClick={()=> changeLanguage('po')}>PR<span><img src={PortugalFlag} alt="English"/></span></div>
+                    </div>
                 </div>
             </div>
         </React.Fragment>

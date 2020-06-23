@@ -47,14 +47,16 @@
     }
 
     .nav-links {
+        width: 100%;
         display: flex;
         flex-direction: row;
         background: transparent;
         padding-top: 0px;
+        justify-content: flex-end;
     }
     .nav-links li {
-        margin: 0 46.8px 0 0;
-        font-size: 13.4px;
+        margin: 0 36.8px 0 0;
+        font-size: 12.4px;
         border-bottom: none;
         padding: 0;
         text-align: left;

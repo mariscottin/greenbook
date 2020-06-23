@@ -55,10 +55,22 @@
     padding-left: 16.8px;
 }
 
-main {
-    margin-top: 6rem;
+.country-flags__container{
+    font-size: 12px;
+    display: flex;
+    width: 30%;
+    margin: auto;
+    margin-right: 23.6px;
 }
 
+.country-flags__container div{
+    margin-left: 18px;
+}
+
+.country-flags__container img{
+    width: 14px;
+    margin-left: 3px;
+}
 
 @media (min-width: 768px) {
     .main-navigation__title {
@@ -77,6 +89,7 @@ main {
     }
     .main-navigation__header-nav {
         display: block;
+        width: 80%;
     }
 
     .main-navigation__header-links{
@@ -91,9 +104,8 @@ main {
         margin: auto;
         padding-left: 42.7px;
     }
-
-    .language-flag img{
-        width: 16px;
+    .country-flags__container div:hover{
+        cursor: pointer;
     }
    
 }

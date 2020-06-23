@@ -26,7 +26,7 @@ const NavLinks = props => {
             <li>
                 <Link
                     activeClass="active"
-                    to="stackSection"
+                    to="aboutSection"
                     spy={true}
                     smooth={true}
                     duration={700}
