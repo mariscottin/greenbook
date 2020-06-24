@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
-    background: rgb(51, 173, 135, 0.15);
+    background: rgba(51, 173, 135, 0.15);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -19,16 +19,20 @@
 
 .footsquare ul {
     margin-right: 77px;
+    list-style: none;
 }
 
-.footsquare li {
+.footsquare ul a {
     font-size: 15px;
     font-family: sans-serif;
     list-style-type: none;
     color: #424241;
-    margin: 28px;
+    margin: 10px 0;
     text-align: right;
     cursor: pointer;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
 .right {
@@ -46,27 +50,19 @@
     margin: 37.5px 0;
 }
 
-.country-flags__container{
+.footer-country-flags__container{
     margin: 0;
-
+    display: flex;
+    justify-content: flex-end;
 }
 
-.country-flags__container div {
-    margin: 0 0 0 5px;
-}
-
-.country-flags__container div .eng {
-
-}
-
-.country-flags__container img{
+.footer-country-flags__container img{
     width: 16px;
+    margin-left: 12px;
+    cursor: pointer;
 }
 
 @media (max-width:767px) {
-    .footer {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+    
 
 }
