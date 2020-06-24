@@ -1,0 +1,72 @@
+.footer{
+    height: 280px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    background: rgb(51, 173, 135, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.brand {
+    width: 230px;
+    height: auto;
+    margin-left: 105px;
+}
+
+.footsquare ul {
+    margin-right: 77px;
+}
+
+.footsquare li {
+    font-size: 15px;
+    font-family: sans-serif;
+    list-style-type: none;
+    color: #424241;
+    margin: 28px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.right {
+    height: 85.5px;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.right p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    display: inline-flex;
+    margin: 37.5px 0;
+}
+
+.country-flags__container{
+    margin: 0;
+
+}
+
+.country-flags__container div {
+    margin: 0 0 0 5px;
+}
+
+.country-flags__container div .eng {
+
+}
+
+.country-flags__container img{
+    width: 16px;
+}
+
+@media (max-width:767px) {
+    .footer {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}

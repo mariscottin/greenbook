@@ -5,8 +5,11 @@ import Approach from './components/Approach';
 import Splitter from './components/Splitter';
 import About from './components/About';
 import Banner from './components/Banner';
+import Contact from  './components/Contact';
+import Footer from './components/Footer';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
       <Splitter />
       <About />
       <Banner />
+     
+      <Footer />
     </div>
   );
 }
