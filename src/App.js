@@ -20,7 +20,7 @@ function App() {
       <Splitter />
       <About />
       <Banner />
-     
+      <Contact />
       <Footer />
     </div>
   );
