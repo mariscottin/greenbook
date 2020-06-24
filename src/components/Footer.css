@@ -38,7 +38,7 @@
 .right {
     height: 85.5px;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -63,8 +63,34 @@
 }
 
 @media(max-width: 991px){
-
+    .footer{
+        display: inline-flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .footsquare div{
+        justify-content: left;
+    }
+    .footsquare ul a {
+        text-align: left;
+    }
+    .footsquare ul {
+        padding-left: 0;
+        margin: 35px;
+    }
+    .brand {
+        margin: 35px;
+    }
+    .footer-country-flags__container{
+        justify-content: flex-start;
+    }
+    .footer-country-flags__container img{
+        margin: 0 12px 0 0;
+    }
 }
-@media(max-width: 521px){
 
+@media(max-width: 521px){
+    .footer{
+        
+    }
 }
