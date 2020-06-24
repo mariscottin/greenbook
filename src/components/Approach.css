@@ -129,6 +129,10 @@
         width: 80%;
         height: auto;
     }
+    .approach__col-2 h1 {
+        width: 100%;
+        font-size: 28px;
+    }
 }
 
 @media(max-width: 480px) {
