@@ -41,12 +41,20 @@
 .mobile-language__container{
     color: rgba(255, 255, 255, 0.5);
     padding: 7px 2px;
+    cursor: pointer;
 }
 
 .mobile-language__container img{
     width: 18px;
 }
 
+.language-options {
+    display: none;
+}
+
+.nav-link {
+    cursor: pointer;
+}
 
 @media(min-width: 992px){
     .navbar-nav{
