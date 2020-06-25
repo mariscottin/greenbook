@@ -53,6 +53,7 @@ const MainNavigation = () => {
                         duration={700}
                         className="nav-link"
                         onClick={() => setExpanded(false)}
+                        offset={-50}
                     >
                         {t('header-1')}
                     </Link>
@@ -64,17 +65,19 @@ const MainNavigation = () => {
                         duration={700}
                         className="nav-link"
                         onClick={() => setExpanded(false)}
+                        offset={-50}
                     >
                         {t('header-2')}
                     </Link>
                     <Link
                         activeClass="active"
-                        to="methodSection"
+                        to="contactSection"
                         spy={true}
                         smooth={true}
                         duration={700}
                         className="nav-link last-nav-link"
                         onClick={() => setExpanded(false)}
+                        offset={-50}
                     >
                         {t('header-3')}
                     </Link>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import ReactLoading from 'react-loading';
 import emailjs from 'emailjs-com';
-
+import Check from '../Assets/img/tic.verde.gif';
 import './Contact.css';
 
 const Contact = (e) => {
@@ -34,14 +34,14 @@ const Contact = (e) => {
                     <h3>{t('contact-2')}</h3>
                 </div>
                 {!messageSent &&
-                <form onSubmit={submitHandler} style={{width: '920px'}}>
+                <form onSubmit={submitHandler} className="form__contact-form">
                     <input type="hidden" name="email_number" value={Math.random() * 100000 | 0} />
                     <div className="form__container">
                         <div className="contact-inline-form">
-                            <div className="form-group">
+                            <div className="form-group responsive-input">
                                 <input type="text" name="user_name" className="form-control inline" placeholder={`${t('contact-3')}`} required/>
                             </div>
-                            <div className="form-group">
+                            <div className="form-group responsive-input">
                                 <input type="email" className="form-control inline" id="emailAddress" name="user_email" placeholder={`${t('contact-4')}`} required/>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const Contact = (e) => {
                 }
                 {(messageSent && !isLoading) &&
                         <div className="success-message-sent">
-                            <h2>Message Sent Successfully!</h2>
+                            <h2><span><img src={Check} alt="Green Check" className="green-check-sent"/>Message Sent Successfully!</span></h2>
                             <h3>Thanks! We will reply as soon as possible!</h3>
                             <div className="send-another-message__container">
                                 <p onClick={()=> setMessageSent(false)}>Send another message</p>
