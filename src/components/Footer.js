@@ -20,7 +20,17 @@ const Footer = () => {
         <div className="foot">
             <div className="footer">
                 <div className="footsquare">
-                    <img src={Brand} alt="Logo" className="brand" />
+                        <Link
+                            activeClass="active"
+                            to="coverSection"
+                            spy={true}
+                            smooth={true}
+                            duration={700}
+                            className="footer-link"
+                            offset={-50}
+                        >
+                            <img src={Brand} alt="Logo" className="brand" />
+                        </Link>
                 </div>
                 <div className="footsquare">
                     <ul>
@@ -31,6 +41,7 @@ const Footer = () => {
                             smooth={true}
                             duration={700}
                             className="footer-link"
+                            offset={-50}
                         >
                             {t('header-1')}
                         </Link>
@@ -41,16 +52,18 @@ const Footer = () => {
                             smooth={true}
                             duration={700}
                             className="footer-link"
+                            offset={-50}
                         >
                             {t('header-2')}
                         </Link>
                         <Link
                             activeClass="active"
-                            to="methodSection"
+                            to="contactSection"
                             spy={true}
                             smooth={true}
                             duration={700}
                             className="footer-link"
+                            offset={-50}
                         >
                             {t('header-3')}
                         </Link>
