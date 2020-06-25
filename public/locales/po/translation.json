@@ -25,5 +25,8 @@
     "contact-3": "Nome completo",
     "contact-4": "seucontato@email.com",
     "contact-5": "Fale conosco!",
-    "contact-6": "Enviar"
+    "contact-6": "Enviar",
+    "sent-1": "Mensagem enviada com sucesso!",
+    "sent-2": "Obrigado! Nós responderemos o mais breve possível!",
+    "sent-3": "Enviar outra mensagem"
 }

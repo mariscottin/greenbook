@@ -63,10 +63,10 @@ const Contact = (e) => {
                 }
                 {(messageSent && !isLoading) &&
                         <div className="success-message-sent">
-                            <h2><span><img src={Check} alt="Green Check" className="green-check-sent"/>Message Sent Successfully!</span></h2>
-                            <h3>Thanks! We will reply as soon as possible!</h3>
+                            <h2><span><img src={Check} alt="Green Check" className="green-check-sent"/>{t('sent-1')}</span></h2>
+                            <h3>{t('sent-2')}</h3>
                             <div className="send-another-message__container">
-                                <p onClick={()=> setMessageSent(false)}>Send another message</p>
+                                <p onClick={()=> setMessageSent(false)}>{t('sent-3')}</p>
                             </div>
                         </div>
                 }

@@ -25,5 +25,8 @@
     "contact-3": "Nombre y Apellido",
     "contact-4": "sucontacto@email.com",
     "contact-5": "¡Cuéntanos lo que piensas!",
-    "contact-6": "Enviar"
+    "contact-6": "Enviar",
+    "sent-1": "Mensaje enviado con éxito!",
+    "sent-2": "Gracias! Responderemos lo antes posible!",
+    "sent-3": "Enviar otro mensaje"
 }
