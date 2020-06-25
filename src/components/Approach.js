@@ -25,10 +25,11 @@ const Approach = () => {
                         <p>{t('approach-3')}</p>
                         <Link
                             activeClass="active"
-                            to="blabla"
+                            to="contactSection"
                             spy={true}
                             smooth={true}
                             duration={700}
+                            offset={-50}
                             className="learn-more"
                         >
                         {t('approach-4')}

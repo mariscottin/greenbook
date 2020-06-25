@@ -85,27 +85,14 @@
 }
 
 .success-message-sent h2{
+    font-weight: bolder;
+}
+
+.success-message-sent h2, .success-message-sent h5{
     margin-bottom: 18px;
 }
 
-.success-message-sent h3{
-    margin-left: 40px;
-}
 
-.send-another-message__container{
-    margin-top: 20px;
-    margin-left: 160px;
-}
-
-.send-another-message__container p:hover{
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.green-check-sent{
-    width: 30px;
-    margin-right: 12px;
-}
 
 
 @media(max-width: 1250px){
@@ -152,12 +139,9 @@
     }
 
     .success-message-sent{
-        width: 85%;
+        width: 80%;
         margin: auto;
-    }
-
-    .success-message-sent h3{
-        margin-left: 0px;
+        text-align: center;
     }
        
 }
@@ -190,7 +174,6 @@
 
     .success-message-sent{
         color: #5d5d5d;
-        text-align: left;
     }
     
     .success-message-sent h2{
@@ -198,23 +181,8 @@
         font-size: 20px;
     }
     
-    .success-message-sent h3{
-        
+    .success-message-sent h5{
         font-size: 16px;
-    }
-    
-    .send-another-message__container{
-        margin-top: 20px;
-        margin-left: 0px;
-    }
-
-    .send-another-message__container p{
-        text-decoration: underline;
-    }
-    
-    .green-check-sent{
-        width: 30px;
-        margin-right: 12px;
     }
     
 }
