@@ -5,7 +5,7 @@ import emailjs from 'emailjs-com';
 import './Contact.css';
 
 const Contact = (e) => {
-    const [messageSent, setMessageSent] = useState(true);
+    const [messageSent, setMessageSent] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
     const { t } = useTranslation();
     const submitHandler = (e) => {
