@@ -1,77 +1,33 @@
-.cover-background{
-    background-image: url("../Assets/img/PeopleBack.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: bottom;
-    height: 579.7px;
-    max-width: 1600px;
+.carousel-section{
+    max-width: 1600px !important;
     margin: auto;
     padding-top: 61.3px;
     position: relative;
 }
 
-.cover-title__container{
-    width: 50%;
-    margin-left: 93.1px;
-    margin-top: 51.8px;
+.carousel-cover-caption {
     text-align: left;
+    top: 65px;
 }
 
-.cover-title__container h1 {
-    font-size: 62px;
-    color: #ffffff;
-    line-height: 75px;
-    margin: 0;
-    font-weight: bolder;
-}
-
-.cover-subtitle__container{
-    position: absolute;
-    width: 80%;
-    bottom: 61.7px;
-    left: 93.1px;
-    text-align: left;
-}
-
-.cover-subtitle__container h3{
-    color: #ffffff;
-    line-height: 30px;
-    font-weight: lighter;
-    font-size: 23px;
-}
-
-.cover-subtitle__container span{
+.carousel-cover-caption h1 {
+    font-size: 64px;
+    color: black;
     font-weight: bold;
 }
 
+.carousel-cover-caption h1 span{
+    font-size: 64px;
+    color: #69ab88;
+    font-weight: bold;
+}
+
+
+
 @media(max-width: 1024px){
-    .cover-title__container{
-        width: 80%;
-    }
+
 }
 
 @media(max-width: 767px){
-    .cover-title__container{
-        margin-left: 21px;
-        margin-top: 43px;
-    }
 
-    
-    .cover-title__container h1 {
-        font-size: 38px;
-        line-height: 50px;
-    }
-
-    
-    .cover-subtitle__container{
-        bottom: 15px;
-        left: 21px;
-        text-align: left;
-    }
-
-    .cover-subtitle__container h3{
-        font-size: 18px;
-    }
 }
