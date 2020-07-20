@@ -34,32 +34,44 @@ const Contact = (e) => {
                         <h1>{t('contact-1')}</h1>
                         <h3>{t('contact-2')}</h3>
                     </div>
-                    <form onSubmit={submitHandler} className="form__contact-form">
-                        <input type="hidden" name="email_number" value={Math.random() * 100000 | 0} />
-                        <div className="form__container">
-                            <div className="contact-inline-form">
-                                <div className="form-group responsive-input">
-                                    <input type="text" name="user_name" className="form-control inline" placeholder={`${t('contact-3')}`} required/>
-                                </div>
-                                <div className="form-group responsive-input">
-                                    <input type="email" className="form-control inline" id="emailAddress" name="user_email" placeholder={`${t('contact-4')}`} required/>
-                                </div>
-                            </div>
-                            <div className="textarea-inline">
-                                <div className="form-group">
-                                    <textarea className="form-control textarea" id="emailInput" name="message" placeholder={`${t('contact-5')}`} required/>
-                                </div>
-                                {isLoading &&
-                                    <div className="contact-loading-spinner__container">
-                                        <ReactLoading type="spinningBubbles" color="#268869" height={60} width={60} />
+                    <div className="contact-form__container">
+                        <form onSubmit={submitHandler} className="form__contact-form">
+                            <input type="hidden" name="email_number" value={Math.random() * 100000 | 0} />
+                            <div className="form__container">
+                                <div className="contact-inline-form">
+                                    <div className="form-group responsive-input">
+                                        <input type="text" name="user_name" className="form-control inline" placeholder={`${t('contact-3')}`} required/>
                                     </div>
-                                }
-                                {!isLoading &&
-                                    <button type="submit" className="btn">{`${t('contact-6')}`}</button>
-                                }
+                                    <div className="form-group responsive-input">
+                                        <input type="email" className="form-control inline" id="emailAddress" name="user_email" placeholder={`${t('contact-4')}`} required/>
+                                    </div>
+                                </div>
+                                <div className="contact-inline-form">
+                                    <div className="form-group responsive-input">
+                                        <input type="number" name="user_phone" className="form-control inline" placeholder={`${t('contact-5')}`} required/>
+                                    </div>
+                                    <div className="form-group responsive-input">
+                                        <select className="form-control inline" required name="user_career">
+                                        <option value="" disabled selected hidden>{`${t('contact-6')}`}</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div className="textarea-inline">
+                                    <div className="form-group">
+                                        <textarea className="form-control textarea" id="emailInput" name="message" placeholder={`${t('contact-7')}`} required/>
+                                    </div>
+                                    {isLoading &&
+                                        <div className="contact-loading-spinner__container">
+                                            <ReactLoading type="spinningBubbles" color="#268869" height={60} width={60} />
+                                        </div>
+                                    }
+                                    {!isLoading &&
+                                        <button type="submit" className="btn send-btn">{`${t('contact-8')}`}</button>
+                                    }
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </React.Fragment>
                 }
                 {(messageSent && !isLoading) &&

@@ -7,18 +7,19 @@
 
     "Slider1-1": "Algo surpreendente ",
     "Slider1-2": "está por vir",
-    "Slider1-3": "Primeira plataforma educacional multilíngue on-line dedicada à indústria de",
-    "Slider1-4": "cannabis e cânhamo.    ",
+    "Slider1-3": "Primeira plataforma educacional multilíngue on-line dedicada à indústria de ",
+    "Slider1-4": "cannabis e cânhamo.",
 
     "btnsld":"saiba mais",
 
-    "Slider2-1": "Capacitar a Diversidade     ",
+    "Slider2-1-1": "Capacitar",
+    "Slider2-1-2": "a Diversidade",
     "Slider2-2": "Criar",
     "Slider2-3": "oportunidades reais para trabalhar ou iniciar negócios",
     "Slider2-4": "no setor de Cannabis e cânhamo para todos os membros da sociedade.    ",
 
-    "Slider3-1": "Carreiras curtas para certificação de força de trabalho e programas de  educação em saúde",
-
+    "Slider3-1": "Carreiras curtas para certificação de força de trabalho e programas de  educação em saúde.",
+    
     "main-title": "Algo surpreendente está por vir",
     "sub-title": "Somos a primeira plataforma educacional multilíngue  \"semente para o paciente\" dedicada à indústria de Cannabis e Cânhamo. Somos",
     "approach-1": "Nosso Foco",
@@ -39,12 +40,14 @@
     "banner": "Fornecemos treinamento on-line e multilíngue para a indústria de Cannabis e Cânhamo",
     "mission-1" : "Nossa missão    ",
     "mission-2" : "Capacite todos os membros da nossa sociedade, com capacidades e habilidades para alcançar oportunidades reais de trabalhar ou iniciar negócios no setor de Cannabis ",
-    "contact-1": "Fale com a gente e saiba mais",
+    "contact-1": "Junte-se a nós!",
     "contact-2": "Complete abaixo suas informações pessoais",
     "contact-3": "Nome completo",
     "contact-4": "seucontato@email.com",
-    "contact-5": "Fale conosco!",
-    "contact-6": "Enviar",
+    "contact-5": "o seu número de telefone",
+    "contact-6": "sua carreira de interesse",
+    "contact-7": "Fale conosco!",
+    "contact-8": "Enviar",
     "sent-1": "Obrigado pelo seu comentário!",
     "sent-2": "Sua mensagem foi enviada com sucesso!",
     "sent-3": "Manteremos você informado sobre nossos novos lançamentos."

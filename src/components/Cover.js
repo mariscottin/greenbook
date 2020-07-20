@@ -55,7 +55,7 @@ const Cover = () => {
         <Carousel.Item className="carousel-cover-three">
           <Carousel.Caption className="carousel-cover-caption carousel-cover-3">
             <img src={Brand} alt="Green Book Academy" />
-            <h4>{t("Slider3-1")}<br />{t("Slider3-2")}</h4>
+            <h4>{t("Slider3-1")}</h4>
             <div className="carousel-btn__container">
               <Link
                 activeClass="active"
