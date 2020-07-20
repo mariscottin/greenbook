@@ -1,38 +1,44 @@
-.App {
+.modal-body{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.modal-world__container{
+  width: 100px;
+  margin: auto;
+  margin-bottom: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal-world__container img{
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.modal-languages__container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 505;
+  max-width: 236px;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-language-btn{
+  background: #df803c;
+  color: #fff;
+  margin-top: 8px;
+  border-radius: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-language-btn:hover{
+  background: #cf6d27;
+  color: #fff;
+}
+
+
+.modal-languages-no-change{
+  color: #df803c;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.modal-languages-no-change:hover{
+  text-decoration: underline;
 }
