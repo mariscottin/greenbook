@@ -172,6 +172,11 @@
     .about__col-2 p{
         font-size: 16px;
     }
+    .about__col-2 .our-mision{
+        font-size: 28px;
+    }
+
+    
 }
 
 @media(max-width: 480px){
@@ -181,6 +186,9 @@
     .about__imgs-container img{
         width: 285px;
         
+    }
+    .about__col-2 .about__main-p{
+        font-size: 22px;
     }
 }
 
@@ -195,6 +203,9 @@
         width: 200px;
         height: 160px;
     }
+    .about__col-2 .about__main-p{
+        font-size: 22px;
+    }
 }
 
 @media(max-width: 350px){
@@ -207,6 +218,9 @@
     .about__imgs-container .green-square{
         width: 60%;
         height: 160px;
+    }
+    .about__col-2 .about__main-p{
+        font-size: 22px;
     }
 }
 

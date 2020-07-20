@@ -130,12 +130,26 @@
 
 @media(max-width: 480px) {
     .Mission__section {
-        padding: 92.9px 25px 92.9px 25px;
+        padding: 50.9px 25px 92.9px 25px;
         max-width: 1400px;
         margin: auto;
     }
     .Mission__img-container img {
         width: 100%;
         height: auto;
+    }
+    .Mission__col-1 h2 {
+        font-size: 24px;
+        line-height: 2.1rem;
+    }
+    .Mission__col-1 h3 {
+        margin-top: 30px;
+        font-size: 26px;
+    }
+    
+    .Mission__col-1 h4 {
+        margin-top: 0px;
+        font-size: 27px;
+
     }
 }
