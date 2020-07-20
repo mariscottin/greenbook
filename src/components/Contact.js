@@ -53,6 +53,14 @@ const Contact = (e) => {
                                     <div className="form-group responsive-input">
                                         <select className="form-control inline" required name="user_career">
                                         <option value="" disabled selected hidden>{`${t('contact-6')}`}</option>
+                                        <option value={`${t('career-option-1')}`}>{`${t('career-option-1')}`}</option>
+                                        <option value={`${t('career-option-2')}`}>{`${t('career-option-2')}`}</option>
+                                        <option value={`${t('career-option-3')}`}>{`${t('career-option-3')}`}</option>
+                                        <option value={`${t('career-option-4')}`}>{`${t('career-option-4')}`}</option>
+                                        <option value={`${t('career-option-5')}`}>{`${t('career-option-5')}`}</option>
+                                        <option value={`${t('career-option-6')}`}>{`${t('career-option-6')}`}</option>
+                                        <option value={`${t('career-option-7')}`}>{`${t('career-option-7')}`}</option>
+                                        <option value={`${t('career-option-8')}`}>{`${t('career-option-8')}`}</option>
                                         </select>
                                     </div>
                                 </div>
