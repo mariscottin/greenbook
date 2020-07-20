@@ -1,77 +1,247 @@
-.cover-background{
-    background-image: url("../Assets/img/PeopleBack.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: bottom;
-    height: 579.7px;
-    max-width: 1600px;
+.carousel-section{
+    max-width: 1600px !important;
     margin: auto;
-    padding-top: 61.3px;
-    position: relative;
+    height: 571px;
+    margin-top: 55px;
 }
 
-.cover-title__container{
+.carousel, .carousel-inner{
+    height: 100%;
+}
+
+.carousel .carousel-cover-one{
+    background-image: url('../Assets/img/asset.main.one.png');
+    background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom center;
+	width:100%;
+	height:100%;
+}
+
+.carousel .carousel-cover-two{
+    background-image: url('../Assets/img/asset.main.two.png');
+    background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom center;
+	width:100%;
+	height:100%;
+}
+
+
+.carousel .carousel-cover-three{
+    background-image: url('../Assets/img/asset.main.three.png');
+    background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom center;
+	width:100%;
+	height:100%;
+}
+
+
+.carousel-cover-caption {
+    text-align: left;
+    top: 65px;
     width: 50%;
-    margin-left: 93.1px;
-    margin-top: 51.8px;
-    text-align: left;
+    padding-right: 10%;
 }
 
-.cover-title__container h1 {
-    font-size: 62px;
-    color: #ffffff;
-    line-height: 75px;
-    margin: 0;
-    font-weight: bolder;
-}
-
-.cover-subtitle__container{
-    position: absolute;
-    width: 80%;
-    bottom: 61.7px;
-    left: 93.1px;
-    text-align: left;
-}
-
-.cover-subtitle__container h3{
-    color: #ffffff;
-    line-height: 30px;
-    font-weight: lighter;
-    font-size: 23px;
-}
-
-.cover-subtitle__container span{
+.carousel-cover-1 h1 {
+    font-size: 64px;
+    color: black;
     font-weight: bold;
 }
 
-@media(max-width: 1024px){
-    .cover-title__container{
-        width: 80%;
+.carousel-cover-1 h1 span{
+    color: #69ab88;
+    font-weight: bold;
+}
+
+.carousel-cover-1 h4 {
+    color: #333;
+    line-height: 2.1rem;
+}
+
+.carousel-cover-1 h4 span{
+    font-weight: bolder;
+}
+
+.carousel-cover-1 .carousel-brand{
+    font-weight: bolder;
+}
+
+.carousel-cover-1 .carousel-brand span{
+    color: #69ab88 !important;
+}
+
+.empower-diversity{
+    color: #fff !important;
+}
+
+.carousel-cover-2 h1{
+    font-size: 64px;
+}
+
+.carousel-cover-2 p{
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 2.4rem;
+}
+
+.carousel-cover-2 span{
+    font-weight: bold;
+}
+
+.carousel-cover-3 img{
+    width: 242px;
+    margin-bottom: 18px;
+}
+
+.carousel-cover-3 h4{
+    color: #333;
+    line-height: 2.1rem;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    z-index: 10 !important;
+}
+
+@media(max-width: 1084px){
+    .carousel .carousel-cover-one{
+        background-position:center center;
+    }
+    
+    .carousel .carousel-cover-two{
+        background-position:center center;
+    }
+    
+    
+    .carousel .carousel-cover-three{
+        background-position:center center;
+    }
+    
+    
+    .carousel-cover-1 h1{
+        font-size: 44px;
+    }
+
+    .carousel-cover-1 h4{
+        font-size: 20px;
+        line-height: 1.6rem;
+    }
+
+    .carousel-cover-2 h1 {
+        font-size: 36px;
+        font-weight: bolder;
+    }
+
+    .carousel-cover-2 p {
+        font-size: 18px;
+        line-height: 1.6rem;
+    }
+    
+}
+
+@media(max-width: 811px){
+    .carousel-cover-3 h4{
+        font-size: 22px;
     }
 }
 
-@media(max-width: 767px){
-    .cover-title__container{
-        margin-left: 21px;
-        margin-top: 43px;
+@media(max-width: 768px){
+    .carousel-section{
+        height: 741px;
     }
 
-    
-    .cover-title__container h1 {
-        font-size: 38px;
-        line-height: 50px;
+    .carousel .carousel-cover-one{
+        background-image: url('../Assets/img/main1phone2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width:100%;
+        height:100%;
+    }
+    .carousel .carousel-cover-two{
+        background-image: url('../Assets/img/main2phone2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width:100%;
+        height:100%;
+    }
+        
+    .carousel .carousel-cover-three{
+        background-image: url('../Assets/img/main.3.phone2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width:100%;
+        height:100%;
     }
 
-    
-    .cover-subtitle__container{
-        bottom: 15px;
-        left: 21px;
+    .carousel-cover-caption {
         text-align: left;
+        top: 25px;
+        left: 86px;
+        width: 80%;
+        margin: auto;
     }
 
-    .cover-subtitle__container h3{
-        font-size: 18px;
+    .carousel-cover-3 img{
+        width: 202px;
+        margin-bottom: 18px;
     }
+
+    .carousel-btn__container{
+        width: 144px;
+    }
+
+}
+
+@media(max-width: 561px){
+    .carousel-section{
+        height: 641px;
+    }
+
+    .carousel-cover-caption {
+        text-align: left;
+        top: 10px;
+        left: 46px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .carousel-cover-1 h1 {
+        font-size: 34px;
+        margin-bottom: 18px;
+    }
+
+    .carousel-cover-1 h4 {
+        font-size: 16px;
+    }
+
+    .carousel-cover-1 .carousel-brand{
+        display: none;
+    }
+
+    .carousel-cover-2 h1 {
+        font-size: 34px;
+    }
+
+    .carousel-cover-2 p {
+        font-size: 16px;
+    }
+
+    .carousel-cover-3 img{
+        width: 182px;
+        margin-bottom: 18px;
+    }
+
+    .carousel-cover-3 h4{
+        font-size: 16px;
+        line-height: 1.8rem;
+    }
+    
+
+    
 }

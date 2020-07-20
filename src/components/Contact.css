@@ -5,17 +5,17 @@
 }
 
 .contact__container{
-    width: 726.3px;
-    margin-left: 105px;
     text-align: left;
     padding: 60px 0;
 }
 
 .contact-title__container{
-    padding-bottom: 40.5px;
-    color: #565656;
-    width: 95%;
+    padding: 40.5px 0 40.5px 105px;
+    color: #fff;
+    width: 100%;
+    background: #375346;
 }
+
 
 .contact-title__container h1{
     font-size: 44px;
@@ -25,8 +25,14 @@
     font-size: 30px;
 }
 
+.contact-form__container{
+    width: 726.3px;
+    margin-top: -20px;
+}
+
 .form__contact-form{
     width: 920px;
+    margin-left: 105px;
 }
 
 .contact-inline-form{
@@ -41,13 +47,17 @@
 }
 
 .form-control{
-    background: rgba(51, 173, 135, 0.15) !important;
+    background: rgb(233, 242, 237) !important;
     font-size: 16px;
 }
 
 .inline{
     width: 349.9px;
 }
+
+select:required:invalid {
+    color: rgba(110, 117, 125);
+  }
 
 .textarea-inline{
     display: flex;
@@ -60,18 +70,18 @@
     width: 726.3px;
 }
 
-.btn{
+.send-btn{
     margin-bottom: 17px;
     margin-left: 27.1px;
     padding: 5px 35px !important;
-    font-size: 22px;
+    font-size: 18px;
     text-transform: uppercase;
-    background: rgb(51, 173, 135);
+    background: #375346;
     color: white;
 }
 
-.btn:hover{
-    background: rgb(38, 136, 105);
+.send-btn:hover{
+    background: #273b32;
     color: white;
 }
 
@@ -100,30 +110,33 @@
         display: block;
     }
 
-    .btn, .contact-loading-spinner__container{
+    .send-btn, .contact-loading-spinner__container{
         margin-left: 0;
     }
 }
 
 @media(max-width: 991px){
+    .contact-title__container{
+        padding: 40.5px 0;
+    }
+
+    .contact-title__container h1, .contact-title__container h3{
+        width: 70%;
+        margin: auto;
+    }
+
     .form__contact-form{
         width: 100%;
+        margin-left: 0;
     }
 
-    .contact__container{
-        width: 85%;
-        margin-left: 0px;
-        margin: auto;
-    }
-
-    .contact-title__container{
+    .contact-form__container, .form__container{
         width: 85%;
         margin: auto;
     }
 
-    .form__container{
-        width: 85%;
-        margin: auto;
+    .contact-form__container{
+        margin-top: -20px;
     }
 
     .responsive-input{
@@ -148,12 +161,6 @@
 
 @media(max-width: 768px){
 
-    .contact__container{
-        width: 85%;
-        margin-left: 0;
-        margin: auto;
-    }
-
     .contact-inline-form{
         display: block;
     }
@@ -162,7 +169,7 @@
         width: 100%;
     }
 
-    .btn{
+    .send-btn{
         width: 100%;
     }
 
@@ -189,22 +196,24 @@
 
 @media(max-width: 480px){
 
-    .contact__container{
-        padding: 40px 0;
+    .contact-title__container{
+        padding: 28px 0 38px 0;
     }
+
     .contact-title__container h1{
-        font-size: 24px;
+        font-size: 28px;
     }
     
     .contact-title__container h3{
         font-size: 18px;
+        margin-top: 8px;
     }
 
     .form-control{
         font-size: 13px;
     }
 
-    .btn{
+    .send-btn{
         font-size: 19px;
     }
 }

@@ -1,6 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import ComputerGuy from '../Assets/img/computer.guy.png';
+import ComputerGuy from '../Assets/img/asset.photo2.png';
+import { Link } from 'react-scroll';
+import suitcase from '../Assets/img/gif.maletin.gif';
+import cross from '../Assets/img/gif.medicina.gif';
 
 
 import './About.css';
@@ -12,18 +15,39 @@ const About = () => {
             <div className="about__container">
                 <div className="about__row">
                     <div className="about__col-1">
+                        <div className="about-header">
+                            <div className="green-linex"></div>
+                            <h4>{t('about-00')}</h4>
+                        </div>
                         <div className="about__imgs-container">
-                            <img src={ComputerGuy} alt="Computer Guy" />
-                            <div className="green-square"></div>
+                            <img src={ComputerGuy} alt="Our School Model" />
                         </div>
                     </div>
                     <div className="about__col-2">
                         <div className="about__col-2__container">
-                            <h1>{t('about-1')}</h1>
+                            <h1>{t('about-0')}</h1>
                             <p className="our-mision">{t('about-2')}</p>
-                            <p className="about__main-p">{t('about-3')}</p>
-                            <p>{t('about-4')} <span className="about__empower">{t('empower')}</span></p>
-                            <p>{t('about-5')} <span className="about__brand">{t('brand')}</span></p>
+                            <div className="about-items">
+                                <img className="img2" src={suitcase} alt="suitcase" />
+                                <p className="about__main-p">{t('about-3')}</p>
+                            </div>
+                            <div className="about-items">
+                                <img className="img1" src={cross} alt="cross" />
+                                <p className="about__main-p">{t('about-4')}</p>
+                            </div>
+                            <div className="about-btn__container">
+                                <Link
+                                activeClass="active"
+                                to="contactSection"
+                                spy={true}
+                                smooth={true}
+                                duration={700}
+                                offset={-50}
+                                className="learn-more"
+                                >
+                                    <button type="submit" className="btn about-btn">{`${t('approach-4')}`}</button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>

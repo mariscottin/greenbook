@@ -7,76 +7,97 @@
 .about__container{
     width: 85%;
     margin: auto;
-    padding-top: 92.9px;
-    padding-bottom: 92.9px;
+    padding-top: 76px;
+    padding-bottom: 60px;
 }
 
 .about__row{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 .about__col-1{
     width: 40%;
-    position: relative;
-    height: auto;
 }
 
+.about-header {
+    margin-top: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.about-header h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #5d5d5d;
+}
+
+.green-linex {
+    width: 68px;
+    height: 9px;
+    background-color: #69ab88;
+    margin-bottom: 7px;
+}   
+
 .about__imgs-container{
-    width: 430px;
-    height: 400px;
-    position: relative;
+    width: 400px;
 }
 
 .about__imgs-container img{
-    width: 339px;
-    height: 321px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 3;
-}
-
-.about__imgs-container .green-square{
-    width: 305px;
-    height: 196px;
-    background: rgb(51, 173, 135);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+    width: 400px;
+    margin-top: 35px;
 }
 
 .about__col-2{
     width: 60%;
     text-align: left;
     height: auto;
+    margin-left: 63.3px;
 }
 
 .about__col-2__container{
     padding-left: 80px;
+    padding-top: 76px;
 }
 
 .about__col-2 h1{
-    font-size: 45px;
-    color: #5d5d5d;
+    font-size: 38px;
+    color: #df803c;
     margin-top: 0;
-    margin-bottom: 40.4px;
-}
-
-.about__col-2 p{
-    font-size: 19px;
-    margin: 0;
-    line-height: 35px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .about__col-2 .our-mision{
     font-weight: bold;
+    font-size: 34px;
+    color: #5d5d5d;
+    margin: 5px 0 32px 0;
+    line-height: 35px;
+}
+
+.about-items {
+    display: flex;
+}
+
+.about-items .img1 {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.about-items .img2 {
+    width: 40px;
+    height: 34px;
+    margin-right: 15px;
 }
 
 .about__col-2 .about__main-p{
-    margin-bottom: 30px;
+    margin-bottom: 38px;
+    font-size: 27px;
+    font-weight: lighter;
+    color: #5d5d5d;
 }
 
 .about__col-2 .about__empower{
@@ -87,6 +108,9 @@
     color: #69ab88;
     font-weight: bold;
 }
+
+
+
 
 @media(max-width: 1163px){
     .about__row{
@@ -110,6 +134,12 @@
     
 }
 
+@media(max-width: 768px){
+    .about-btn__container{
+        width: 160px;
+    }
+}
+
 @media(max-width: 511px){
     .about__col-1{
         height: 400px;
@@ -123,7 +153,6 @@
     .about__imgs-container img{
         width: 315px;;
         height: auto;
-        
     }
 
     .about__imgs-container .green-square{
@@ -137,11 +166,17 @@
 
     .about__col-2 h1{
         font-size: 32px;
+        margin-top: 32px;
     }
 
     .about__col-2 p{
         font-size: 16px;
     }
+    .about__col-2 .our-mision{
+        font-size: 28px;
+    }
+
+    
 }
 
 @media(max-width: 480px){
@@ -151,6 +186,9 @@
     .about__imgs-container img{
         width: 285px;
         
+    }
+    .about__col-2 .about__main-p{
+        font-size: 22px;
     }
 }
 
@@ -165,6 +203,9 @@
         width: 200px;
         height: 160px;
     }
+    .about__col-2 .about__main-p{
+        font-size: 22px;
+    }
 }
 
 @media(max-width: 350px){
@@ -177,6 +218,9 @@
     .about__imgs-container .green-square{
         width: 60%;
         height: 160px;
+    }
+    .about__col-2 .about__main-p{
+        font-size: 22px;
     }
 }
 

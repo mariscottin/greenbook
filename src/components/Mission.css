@@ -1,0 +1,155 @@
+.Mission__section {
+    padding: 92.9px 93.1px 92.9px 105px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.Mission__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.Mission__col-1 {
+    width: 60%;
+}
+
+.Mission__img-container {
+    width: 100%;
+    
+}
+
+.Mission__img-container img {
+    height: 479px;
+}
+
+.Mission__col-2 {
+    width: 40%;
+    margin-left: 150px;
+}
+
+.Mission__col-1 h1 {
+    color: #df803c;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.Mission__col-1 h2 {
+    margin-top: 14.6px;
+    margin-bottom: 0;
+    font-size: 28px;
+    color: #5d5d5d;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 3.1rem;
+}
+
+.Mission__col-1 h3 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 60px;
+}
+
+.Mission__col-1 h4 {
+    margin-top: 6.6px;
+    margin-bottom: 0;
+    font-size: 32px;
+    color: #69ab88;
+    font-weight: bold;
+    text-align: left;
+    line-height: 60px;
+}
+
+
+@media(max-width: 1163px) {
+    .Mission__section {
+        padding: 119px 93.1px 92.9px 105px;
+        max-width: 1400px;
+        margin: auto;
+    }
+    .Mission__row {
+        flex-wrap: wrap;
+    }
+    .Mission__col-1, .Mission__col-2 {
+        width: 100%;
+        margin: auto;
+    }
+    .Mission__col-1 {
+        padding-bottom: 85.3px;
+    }
+    .Mission__img-container img {
+        width: 557px;
+        height: auto;
+    }
+    .Mission__col-2 {
+        margin-left: 0;
+    }
+    .Mission__col-2 h4 {
+        margin-top: 12.6px;
+    }
+    .Mission__col-2 h1 {
+        margin-top: 35px;
+    }
+}
+
+@media(max-width: 991px) {
+    .Mission__section {
+        padding: 92.9px 45px 92.9px 45px;
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    .Mission__img-container img {
+        width: 60%;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .Mission__img-container img {
+        width: 80%;
+        height: auto;
+    }
+
+    .Mission__col-1 h1 {
+        width: 100%;
+        font-size: 34px;
+    }
+
+    .Mission__col-1 h2{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 480px) {
+    .Mission__section {
+        padding: 50.9px 25px 92.9px 25px;
+        max-width: 1400px;
+        margin: auto;
+    }
+    .Mission__img-container img {
+        width: 100%;
+        height: auto;
+    }
+    .Mission__col-1 h2 {
+        font-size: 24px;
+        line-height: 2.1rem;
+    }
+    .Mission__col-1 h3 {
+        margin-top: 30px;
+        font-size: 26px;
+    }
+    
+    .Mission__col-1 h4 {
+        margin-top: 0px;
+        font-size: 27px;
+
+    }
+}

@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 .approach__col-1 {
@@ -16,16 +17,17 @@
 
 .approach__img-container {
     width: 100%;
+    
 }
 
 .approach__img-container img {
-    width: 411px;
-    height: 479px;
+    height: 460px;
+    
 }
 
 .approach__col-2 {
     width: 60%;
-    margin-left: 63.3px;
+    margin-left: 180px;
     text-align: left;
 }
 
@@ -38,15 +40,18 @@
 .approach__col-2 h4 {
     margin-top: 14.6px;
     margin-bottom: 0;
-    font-size: 23px;
+    font-size: 32px;
     color: #5d5d5d;
+    font-weight: bold;
 }
 
 .approach__col-2 h1 {
     color: #5d5d5d;
-    font-size: 35px;
-    margin-top: 37px;
+    font-size: 40px;
+    margin-top: 36px;
     margin-bottom: 0;
+    font-weight: bold;
+    line-height: 58px;
 }
 
 .approach__col-2 p {
@@ -77,6 +82,11 @@
     height: 2px;
     background-color: #5d5d5d;
     margin-top: 3px;
+}
+
+.about__approach {
+    color: #df803c;
+    font-weight: bold;
 }
 
 @media(max-width: 1163px) {
@@ -132,6 +142,7 @@
     .approach__col-2 h1 {
         width: 100%;
         font-size: 28px;
+        line-height: 2.4rem;
     }
 }
 
