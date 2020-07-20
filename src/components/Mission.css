@@ -28,16 +28,6 @@
     margin-left: 150px;
 }
 
-.Mission__col-1 h2 {
-    margin-top: 14.6px;
-    margin-bottom: 0;
-    font-size: 32px;
-    color: #5d5d5d;
-    font-weight: lighter;
-    text-align: left;
-    line-height: 60px;
-}
-
 .Mission__col-1 h1 {
     color: #df803c;
     font-size: 40px;
@@ -45,6 +35,16 @@
     margin-bottom: 0;
     text-align: left;
     font-weight: bold;
+}
+
+.Mission__col-1 h2 {
+    margin-top: 14.6px;
+    margin-bottom: 0;
+    font-size: 28px;
+    color: #5d5d5d;
+    font-weight: lighter;
+    text-align: left;
+    line-height: 3.1rem;
 }
 
 .Mission__col-1 h3 {
@@ -58,7 +58,7 @@
 }
 
 .Mission__col-1 h4 {
-    margin-top: 14.6px;
+    margin-top: 6.6px;
     margin-bottom: 0;
     font-size: 32px;
     color: #69ab88;
@@ -66,9 +66,6 @@
     text-align: left;
     line-height: 60px;
 }
-
-
-
 
 
 @media(max-width: 1163px) {
@@ -121,9 +118,14 @@
         width: 80%;
         height: auto;
     }
-    .Mission__col-2 h1 {
+
+    .Mission__col-1 h1 {
         width: 100%;
-        font-size: 28px;
+        font-size: 34px;
+    }
+
+    .Mission__col-1 h2{
+        font-size: 24px;
     }
 }
 

@@ -3,7 +3,6 @@ body {
   font-family: "Multi", sans-serif;
 }
 
-
 .slide-in-top-enter {
   transform: translateY(-100%);
 }
@@ -23,4 +22,22 @@ body {
   transform: translateY(-100%);
   opacity: 0;
   transition: all 200ms;
+}
+
+.about-btn {
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  text-transform: none !important;
+  background: #df803c !important;
+  color: white;
+  margin-top: 12px;
+  border-radius: 8px;
+  font-size: 18px !important;
+}
+
+@media(max-width: 768px) {
+  .about-btn {
+    font-size: 14px !important;
+    height: 36px;
+  }
 }

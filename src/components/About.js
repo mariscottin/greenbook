@@ -2,8 +2,6 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import ComputerGuy from '../Assets/img/asset.photo2.png';
 import { Link } from 'react-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import suitcase from '../Assets/img/gif.maletin.gif';
 import cross from '../Assets/img/gif.medicina.gif';
 
@@ -22,8 +20,7 @@ const About = () => {
                             <h4>{t('about-00')}</h4>
                         </div>
                         <div className="about__imgs-container">
-                            <img src={ComputerGuy} alt="Computer Guy" />
-                            {/*<div className="green-square"></div>*/}
+                            <img src={ComputerGuy} alt="Our School Model" />
                         </div>
                     </div>
                     <div className="about__col-2">
@@ -38,18 +35,19 @@ const About = () => {
                                 <img className="img1" src={cross} alt="cross" />
                                 <p className="about__main-p">{t('about-4')}</p>
                             </div>
-                            
-                            <Link
-                            activeClass="active"
-                            to="contactSection"
-                            spy={true}
-                            smooth={true}
-                            duration={700}
-                            offset={-50}
-                            className="learn-more"
-                            >
-                                <button type="submit" className="btn about-btn">{`${t('approach-4')}`}</button>
-                            </Link>
+                            <div className="about-btn__container">
+                                <Link
+                                activeClass="active"
+                                to="contactSection"
+                                spy={true}
+                                smooth={true}
+                                duration={700}
+                                offset={-50}
+                                className="learn-more"
+                                >
+                                    <button type="submit" className="btn about-btn">{`${t('approach-4')}`}</button>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
