@@ -9,7 +9,7 @@ import './Cover.css';
 const Cover = () => {
   const { t } = useTranslation();
   return (
-    <div className="carousel-section">
+    <div className="carousel-section" id="coverSection">
       <Carousel interval="3800" touch="true" >
         <Carousel.Item className="carousel-cover-one">
           <Carousel.Caption className="carousel-cover-caption carousel-cover-1">
@@ -23,7 +23,7 @@ const Cover = () => {
                 spy={true}
                 smooth={true}
                 duration={700}
-                offset={-50}
+                offset={-61}
                 className="learn-more"
               >
                 <button type="submit" className="btn about-btn">{`${t('btnsld')}`}</button>
