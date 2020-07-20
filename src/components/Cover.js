@@ -10,7 +10,7 @@ const Cover = () => {
   const { t } = useTranslation();
   return (
     <div className="carousel-section" id="coverSection">
-      <Carousel interval="3800" touch="true" >
+      <Carousel interval="9800" touch="true" >
         <Carousel.Item className="carousel-cover-one">
           <Carousel.Caption className="carousel-cover-caption carousel-cover-1">
             <h1>{t("Slider1-1")}<span>{t("Slider1-2")}</span></h1>
