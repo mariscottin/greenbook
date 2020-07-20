@@ -15,7 +15,7 @@ const Cover = () => {
           <Carousel.Caption className="carousel-cover-caption carousel-cover-1">
             <h1>{t("Slider1-1")}<span>{t("Slider1-2")}</span></h1>
             <h4>{t("Slider1-3")}<span>{t("Slider1-4")}</span></h4>
-            <h4 className="carousel-brand">The <span>{t("brand")}</span></h4>
+            <h4 className="carousel-brand"><span>{t("brand")}</span></h4>
             <div className="carousel-btn__container">
               <Link
                 activeClass="active"
