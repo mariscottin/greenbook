@@ -2,10 +2,18 @@
   text-align: center;
 }
 
+.modal-content {
+  border-radius: 8px;
+}
+
 .modal-world__container{
   width: 100px;
   margin: auto;
   margin-bottom: 25px;
+}
+
+.modal-dialog {
+  margin-top: 100px;
 }
 
 .modal-world__container img{
@@ -32,7 +40,6 @@
   color: #fff;
 }
 
-
 .modal-languages-no-change{
   color: #df803c;
   margin-top: 15px;
@@ -41,4 +48,10 @@
 
 .modal-languages-no-change:hover{
   text-decoration: underline;
+}
+
+@media (max-width:700px) {
+  .modal-dialog {
+    margin-top: 40%;
+  }
 }

@@ -17,12 +17,10 @@
 
 .approach__img-container {
     width: 100%;
-    
 }
 
 .approach__img-container img {
     height: 460px;
-    
 }
 
 .approach__col-2 {
@@ -40,9 +38,10 @@
 .approach__col-2 h4 {
     margin-top: 14.6px;
     margin-bottom: 0;
-    font-size: 32px;
+    font-size: 38px;
     color: #5d5d5d;
     font-weight: bold;
+    font-family: 'Mulish', sans-serif;
 }
 
 .approach__col-2 h1 {
@@ -50,8 +49,9 @@
     font-size: 40px;
     margin-top: 36px;
     margin-bottom: 0;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 58px;
+    font-family: 'Mulish', sans-serif;
 }
 
 .approach__col-2 p {
@@ -91,7 +91,7 @@
 
 @media(max-width: 1163px) {
     .approach__section {
-        padding: 119px 93.1px 92.9px 105px;
+        padding: 100px 93.1px 70.9px 105px;
         max-width: 1400px;
         margin: auto;
     }
@@ -122,7 +122,7 @@
 
 @media(max-width: 991px) {
     .approach__section {
-        padding: 92.9px 45px 92.9px 45px;
+        padding: 50px 45px 50px 45px;
         max-width: 1400px;
         margin: auto;
     }
@@ -144,11 +144,14 @@
         font-size: 28px;
         line-height: 2.4rem;
     }
+    .approach__col-1 {
+        padding-bottom: 40px;
+    }
 }
 
 @media(max-width: 480px) {
     .approach__section {
-        padding: 92.9px 25px 92.9px 25px;
+        padding: 40px 25px 40px 25px;
         max-width: 1400px;
         margin: auto;
     }

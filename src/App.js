@@ -36,7 +36,7 @@ useEffect(()=> {
 
   return (
     <div className="App">
-      <Modal show={showModal} onHide={handleCloseModal}>
+      <Modal  show={showModal} onHide={handleCloseModal}>
       <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
           <div className="modal-world__container">
