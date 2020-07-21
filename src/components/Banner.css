@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
-    background: #375346;
+    background: #225244;
     color: #ffffff;
     height: 265.4px;
     position: relative;
@@ -19,6 +19,9 @@
 .banner__container h1{
     font-size: 51px;
     font-weight: lighter;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
 }
 
 @media(max-width: 991px){

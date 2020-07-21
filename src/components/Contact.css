@@ -2,27 +2,35 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
+    font-family: 'Mulish', sans-serif;
 }
 
 .contact__container{
     text-align: left;
     padding: 60px 0;
+    
 }
 
 .contact-title__container{
     padding: 40.5px 0 40.5px 105px;
     color: #fff;
     width: 100%;
-    background: #375346;
+    background: #225244;
+}
+
+.contact-title__container img{
+    height: 26px;
 }
 
 
 .contact-title__container h1{
     font-size: 44px;
+    font-family: 'Mulish', sans-serif;
 }
 
 .contact-title__container h3{
-    font-size: 30px;
+    font-size: 26px;
+    font-family: 'Mulish', sans-serif;
 }
 
 .contact-form__container{
@@ -76,8 +84,9 @@ select:required:invalid {
     padding: 5px 35px !important;
     font-size: 18px;
     text-transform: uppercase;
-    background: #375346;
+    background: #225244;
     color: white;
+    font-family: 'Mulish', sans-serif;
 }
 
 .send-btn:hover{
