@@ -15,10 +15,10 @@ const About = () => {
             <div className="about__container">
                 <div className="about__row">
                     <div className="about__col-1">
-                        <div className="about-header">
+                        {/*<div className="about-header">
                             <div className="green-linex"></div>
                             <h4>{t('about-00')}</h4>
-                        </div>
+                        </div>*/}
                         <div className="about__imgs-container">
                             <img src={ComputerGuy} alt="Our School Model" />
                         </div>
