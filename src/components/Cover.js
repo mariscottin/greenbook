@@ -13,9 +13,10 @@ const Cover = () => {
       <Carousel interval="3800" touch="true" >
         <Carousel.Item className="carousel-cover-one">
           <Carousel.Caption className="carousel-cover-caption carousel-cover-1">
-            <h1>{t("Slider1-1")}<span>{t("Slider1-2")}</span></h1>
+            {/*<h1>{t("Slider1-1")}<span>{t("Slider1-2")}</span></h1>*/}
+            <img src={Brand} alt="Green Book Academy" />
             <h4>{t("Slider1-3")}<span>{t("Slider1-4")}</span></h4>
-            <h4 className="carousel-brand"><span>{t("brand")}</span></h4>
+            <h4 className="carousel-brand"> </h4>
             <div className="carousel-btn__container">
               <Link
                 activeClass="active"
@@ -34,8 +35,8 @@ const Cover = () => {
 
         <Carousel.Item className="carousel-cover-two">
           <Carousel.Caption className="carousel-cover-caption carousel-cover-2">
-            <h1 className="empower-diversity">{t("Slider2-1-1")}<br />{t("Slider2-1-2")}</h1>
-            <p>{t("Slider2-2")}<span> {t("Slider2-3")}</span> {t("Slider2-4")}</p>
+          <h1>{t("Slider3-1")}<span>{t("Slider3-2")}</span>{t("Slider3-3")}</h1>
+          <h4>{t("Slider3-4")}<span>{t("Slider3-5")}</span>{t("Slider3-6")}</h4>
             <div className="carousel-btn__container">
               <Link
                 activeClass="active"
@@ -54,9 +55,9 @@ const Cover = () => {
 
         <Carousel.Item className="carousel-cover-three">
           <Carousel.Caption className="carousel-cover-caption carousel-cover-3">
-            <img src={Brand} alt="Green Book Academy" />
-            <h4>{t("Slider3-1")}</h4>
-            <div className="carousel-btn__container">
+            <h1>{t("Slider2-1")}<span>{t("Slider2-2")}</span>{t("Slider2-3")}</h1>
+            <h4>{t("Slider2-4")}<span>{t("Slider2-5")}</span>{/*{t("Slider2-6")}*/}</h4>
+            <div className="carousel-btn__container">         
               <Link
                 activeClass="active"
                 to="contactSection"

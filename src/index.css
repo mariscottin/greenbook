@@ -33,11 +33,15 @@ body {
   margin-top: 12px;
   border-radius: 8px;
   font-size: 18px !important;
+  height: 48px !important;
+  width: 160px !important;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
 }
 
 @media(max-width: 768px) {
   .about-btn {
     font-size: 14px !important;
-    height: 36px;
+    height: 38px !important;
   }
 }

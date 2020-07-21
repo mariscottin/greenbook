@@ -32,6 +32,7 @@
     font-size: 32px;
     font-weight: bold;
     color: #5d5d5d;
+    font-family: 'Mulish', sans-serif;
 }
 
 .green-linex {
@@ -68,6 +69,7 @@
     margin-top: 0;
     margin-bottom: 5px;
     font-weight: bold;
+    font-family: 'Mulish', sans-serif;
 }
 
 .about__col-2 .our-mision{
@@ -76,6 +78,7 @@
     color: #5d5d5d;
     margin: 5px 0 32px 0;
     line-height: 35px;
+    font-family: 'Mulish', sans-serif;
 }
 
 .about-items {
@@ -96,8 +99,9 @@
 .about__col-2 .about__main-p{
     margin-bottom: 38px;
     font-size: 27px;
-    font-weight: lighter;
+    font-weight: 500;
     color: #5d5d5d;
+    font-family: 'Mulish', sans-serif;
 }
 
 .about__col-2 .about__empower{
@@ -137,6 +141,10 @@
 @media(max-width: 768px){
     .about-btn__container{
         width: 160px;
+    }
+    .about__container{
+        padding-top: 30px;
+        padding-bottom: 10px;
     }
 }
 

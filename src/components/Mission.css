@@ -35,6 +35,7 @@
     margin-bottom: 0;
     text-align: left;
     font-weight: bold;
+    font-family: 'Mulish', sans-serif;
 }
 
 .Mission__col-1 h2 {
@@ -45,6 +46,7 @@
     font-weight: lighter;
     text-align: left;
     line-height: 3.1rem;
+    font-family: 'Mulish', sans-serif;
 }
 
 .Mission__col-1 h3 {
@@ -55,6 +57,7 @@
     font-weight: bold;
     text-align: left;
     line-height: 60px;
+    font-family: 'Mulish', sans-serif;
 }
 
 .Mission__col-1 h4 {
@@ -65,12 +68,13 @@
     font-weight: bold;
     text-align: left;
     line-height: 60px;
+    font-family: 'Mulish', sans-serif;
 }
 
 
 @media(max-width: 1163px) {
     .Mission__section {
-        padding: 119px 93.1px 92.9px 105px;
+        padding: 119px 93.1px 70.9px 105px;
         max-width: 1400px;
         margin: auto;
     }
@@ -101,7 +105,7 @@
 
 @media(max-width: 991px) {
     .Mission__section {
-        padding: 92.9px 45px 92.9px 45px;
+        padding: 92.9px 45px 35px 45px;
         max-width: 1400px;
         margin: auto;
     }
@@ -126,11 +130,14 @@
     .Mission__col-1 h2{
         font-size: 24px;
     }
+    .Mission__col-1 {
+        padding-bottom: 40px;
+    }
 }
 
 @media(max-width: 480px) {
     .Mission__section {
-        padding: 50.9px 25px 92.9px 25px;
+        padding: 50.9px 25px 0px 25px;
         max-width: 1400px;
         margin: auto;
     }
