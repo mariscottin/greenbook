@@ -44,6 +44,16 @@
     margin-left: 70px;
 }
 
+.phone-email__container .phone-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.phone-email__container .email-icon{
+    width: 32px;
+    height: 24px;
+}
+
 .contact-form__container{
     width: 726.3px;
     margin-top: -20px;
@@ -291,6 +301,16 @@ select:required:invalid {
     }
     .phone-email__container h3{
         font-size: 12px;
+    }
+
+    .phone-email__container .phone-icon{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .phone-email__container .email-icon{
+        width: 24px;
+        height: 18px;
     }
 
 }

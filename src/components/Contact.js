@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import ReactLoading from 'react-loading';
 import emailjs from 'emailjs-com';
-import phone from '../Assets/img/phone.png';
+import phone from '../Assets/img/phoneicon.png';
 import envelope from '../Assets/img/icono.email.png';
 
 import './Contact.css';
@@ -37,8 +37,8 @@ const Contact = (e) => {
                         <h1>{t('contact-1')}</h1>
                         <h3>{t('contact-2')}</h3>
                         <div className="phone-email__container">
-                            <h3><img src={phone} alt="phone"/>  +1 (407) 227 5803</h3>
-                            <h3><img src={envelope} alt="envelope"/>  info@greenbookacademy.com</h3>
+                            <h3><img src={phone} alt="phone" className="phone-icon"/>  +1 (407) 227 5803</h3>
+                            <h3><img src={envelope} alt="envelope" className="email-icon"/>  info@greenbookacademy.com</h3>
                         </div>
                     </div>
                     <div className="contact-form__container">
