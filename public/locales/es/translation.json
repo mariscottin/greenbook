@@ -15,8 +15,8 @@
     "Slider2-1": "",
     "Slider2-2": "Potenciar ",
     "Slider2-3": "Diversidad",
-    "Slider2-4": "Crear ",
-    "Slider2-5": "oportunidades reales para trabajar o iniciar negocios en la industria del Cannabis y el Cáñamo",
+    "Slider2-4": "Creando oportunidades reales para",
+    "Slider2-5": " trabajar o iniciar un negocio en la industria del Cannabis y el Cáñamo",
     "Slider2-6": "",
     
 
@@ -44,17 +44,22 @@
     "about-3": "Certificación laboral de carreras cortas.",
     "about-4": "Programas de educación del sector salud",
     "about-5": "Somos",
-    "banner": "Brindamos capacitación multi-idioma y en línea para la industria del Cannabis y Cáñamo",
+    "about-6": "Educación Gratuita para pacientes",
+    "banner": "Capacitación multi-idioma y en línea para la industria del Cannabis y Cáñamo",
     "mission-1" : "Nuestra Misión   ",
-    "mission-2" : "Empoderar a todos los miembros de nuestra sociedad, con capacidades y habilidades para alcanzar oportunidades reales de trabajar o iniciar negocios en la industria del cannabis.    ",
-    "contact-1": "¡Únete a nosotros!",
-    "contact-2": "Ingresa tus datos y nos pondremos en contacto",
+    "mission-2" : "Empoderar a todos los miembros de nuestra sociedad, con capacidades y habilidades para alcanzar oportunidades reales de trabajar o iniciar un negocio en la industria del Cannabis",
+    "contact-1": "Contacta a Green Book Academy",
+    "contact-2": "Estamos aquí para ayudar y responder cualquier duda que tenga",
     "contact-3": "Nombre y Apellido",
     "contact-4": "sucontacto@email.com",
     "contact-5": "su número de teléfono",
     "contact-6": "su carrera de interés",
     "contact-7": "¡Cuéntanos lo que piensas!",
     "contact-8": "Enviar",
+    "contact-inquiry-0": "Tipo de Consulta",
+    "contact-inquiry-1": "Facultad",
+    "contact-inquiry-2": "Estudiante",
+    "contact-inquiry-3": "Relaciones con Inversores",
     "career-option-1": "Técnico de Horticultura",
     "career-option-2": "Técnico de Dispensario",
     "career-option-3": "Técnico de Manufactura",
@@ -65,5 +70,13 @@
     "career-option-8": "Profesionales de la Salud",
     "sent-1": "¡Gracias por tu comentario!",
     "sent-2": "¡Su mensaje fue enviado con éxito!",
-    "sent-3": "Te mantendremos informado de nuestros nuevos lanzamientos."
+    "sent-3": "Te mantendremos informado de nuestros nuevos lanzamientos.",
+
+    "bottom-banner-btn-1": "Faculty Positions",
+    "bottom-banner-btn-2": "Más Información!",
+
+    "foot-1": "Por consultas de inversión por favor contactarse a  ",
+    "foot-2": "noemi@greenbookacademy.com"
+
+
 }

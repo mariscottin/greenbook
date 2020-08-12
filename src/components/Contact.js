@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import ReactLoading from 'react-loading';
 import emailjs from 'emailjs-com';
-import phone from '../Assets/img/phone.png';
+import phone from '../Assets/img/phoneicon.png';
+import envelope from '../Assets/img/icono.email.png';
 
 import './Contact.css';
 
@@ -34,8 +35,11 @@ const Contact = (e) => {
                 <React.Fragment>
                     <div className="contact-title__container">
                         <h1>{t('contact-1')}</h1>
-                        <h3><img src={phone} alt="phone"/>  +1 (407) 227 5803</h3>
                         <h3>{t('contact-2')}</h3>
+                        <div className="phone-email__container">
+                            <h3><img src={phone} alt="phone" className="phone-icon"/>  +1 (407) 227 5803</h3>
+                            <h3><img src={envelope} alt="envelope" className="email-icon"/>  info@greenbookacademy.com</h3>
+                        </div>
                     </div>
                     <div className="contact-form__container">
                         <form onSubmit={submitHandler} className="form__contact-form">
@@ -65,6 +69,24 @@ const Contact = (e) => {
                                         <option value={`${t('career-option-7')}`}>{`${t('career-option-7')}`}</option>
                                         <option value={`${t('career-option-8')}`}>{`${t('career-option-8')}`}</option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div className="inquiry-type__container">
+                                    <h6>{t('contact-inquiry-0')}</h6>
+                                    <div className="form-check__container">
+                                        <div className="form-check">
+                                            <input className="form-check-input" type="radio" name="inquiryType" id="Faculty" value="Faculty" />
+                                            <label htmlFor="Faculty">{t('contact-inquiry-1')}</label>
+                                        </div>
+                                        <div className="form-check">
+                                            <input className="form-check-input" type="radio" name="inquiryType" id="Student" value="Student" />
+                                            <label htmlFor="Student">{t('contact-inquiry-2')}</label>
+                                        </div>
+                                        <div className="form-check">
+                                            <input className="form-check-input" type="radio" name="inquiryType" id="InvestorsRelations" value="Investors Relations" />
+                                            <label htmlFor="InvestorsRelations">{t('contact-inquiry-3')}</label>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div className="textarea-inline">

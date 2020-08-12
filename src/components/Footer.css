@@ -38,21 +38,21 @@
     font-family: 'Mulish', sans-serif;
 }
 
-.right {
-    height: 85.5px;
-    width: 100%;
-    max-width: 1400px;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
+.social-icons__container {
+    margin-left: -12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
-.right p {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 16px;
-    display: inline-flex;
-    margin: 37.5px 0;
-    font-family: 'Mulish', sans-serif;
+.social-icons__container a{
+    margin: 0 !important;
+}
+
+.social-icons__container svg{
+    font-size: 18px;
+    margin-left: 12px;
 }
 
 .footer-country-flags__container{
@@ -66,6 +66,48 @@
     margin-left: 12px;
     cursor: pointer;
 }
+
+.bottom-footer {
+    height: 85.5px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);   
+    overflow: none;
+}
+
+.bottom-footer__container{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;  
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.bottom-footer__container p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+}
+
+.bottom-footer__container a{
+   color: rgba(255, 255, 255, 0.8);
+   font-weight: bolder;
+}
+
+
+@media(max-width: 991px){
+    .bottom-footer__container{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
+
 
 @media(max-width: 768px){
     .footer{
@@ -94,6 +136,10 @@
         margin-top: 18px;
     }
 
+    .social-icons__container {
+        justify-content: flex-start;
+    }
+
     .footer-country-flags__container{
         justify-content: flex-start;
         padding-bottom: 45px;
@@ -104,5 +150,14 @@
         margin-left: 0;
         margin-right: 16px;
     }
+}
 
+@media(max-width: 575px){
+    .bottom-footer{
+        height: 98.5px;
+    }
+
+    .bottom-footer__container p{
+        font-size: 13px;
+    }
 }

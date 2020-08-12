@@ -1,97 +1,51 @@
 .approach__section {
-    padding: 92.9px 93.1px 92.9px 105px;
+    padding: 70px 70px 70px 100px;
     max-width: 1400px;
     margin: auto;
 }
 
-.approach__row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.approach__col-1 {
-    width: 40%;
-}
-
-.approach__img-container {
-    width: 100%;
-}
-
-.approach__img-container img {
-    height: 460px;
-}
-
 .approach__col-2 {
-    width: 60%;
-    margin-left: 180px;
+    width: 90%;
+    margin: auto;
     text-align: left;
 }
 
-.approach__col-2 .green-line {
-    width: 46.8px;
-    height: 6.8px;
-    background-color: rgb(51, 173, 135);
-}
-
 .approach__col-2 h4 {
-    margin-top: 14.6px;
+    margin-top: 0px;
     margin-bottom: 0;
-    font-size: 38px;
-    color: #5d5d5d;
+    font-size: 50px;
+    color: #df803c;
     font-weight: bold;
     font-family: 'Mulish', sans-serif;
 }
 
 .approach__col-2 h1 {
     color: #5d5d5d;
-    font-size: 40px;
-    margin-top: 36px;
+    font-size: 45px;
+    margin-top: 26px;
     margin-bottom: 0;
     font-weight: 500;
     line-height: 58px;
     font-family: 'Mulish', sans-serif;
 }
 
-.approach__col-2 p {
-    color: #2d2d2d;
-    font-size: 19px;
-    font-weight: lighter;
-    line-height: 30px;
-    margin-top: 42.3px;
-    margin-bottom: 39.3px;
-}
-
 .approach__col-2 .learn-more {
     font-size: 22px;
 }
 
-.approach__col-2 .learn-more svg {
-    color: #5d5d5d;
-    margin-left: 8px;
-    font-size: 14px;
-}
-
-.approach__col-2 .learn-more:hover {
-    cursor: pointer;
-}
-
-.gray-underline {
-    width: 114px;
-    height: 2px;
-    background-color: #5d5d5d;
-    margin-top: 3px;
-}
-
-.about__approach {
-    color: #df803c;
-    font-weight: bold;
+.approach__col-2 h2 {
+    color: #69ab88;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 58px;
+    font-family: 'Mulish', sans-serif;
 }
 
 @media(max-width: 1163px) {
     .approach__section {
-        padding: 100px 93.1px 70.9px 105px;
+        padding: 70px 70px 70px 100px;
         max-width: 1400px;
         margin: auto;
     }
@@ -143,7 +97,17 @@
         width: 100%;
         font-size: 28px;
         line-height: 2.4rem;
+        margin-top: 20px;
     }
+    .approach__col-2 h4 {
+  
+        font-size: 28px;
+    }
+    .approach__col-2 h2 {
+
+        font-size: 28px;
+    }
+
     .approach__col-1 {
         padding-bottom: 40px;
     }
