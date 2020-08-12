@@ -44,16 +44,28 @@
     max-width: 1400px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;    
 }
 
 .right p {
     color: rgba(255, 255, 255, 0.8);
     font-size: 16px;
-    display: inline-flex;
-    margin: 37.5px 0;
     font-family: 'Mulish', sans-serif;
+    padding-left: 10px;
 }
+
+.right h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    padding-right: 10px;
+}
+
+
+
 
 .social-icons__container {
     margin-left: -12px;
@@ -125,5 +137,7 @@
         margin-left: 0;
         margin-right: 16px;
     }
-
+    .right {
+        height: 160px;
+    }
 }

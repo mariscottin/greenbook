@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Notebookgirl from '../Assets/img/asset.photo.3.png';
+import slogan from '../Assets/img/logoslogan.png';
 
 import './Mission.css';
 
@@ -13,8 +14,7 @@ const Mission = () => {
                     <div className="Mission__col-1">
                         <h1>{t('mission-1')}</h1>
                         <h2>{t('mission-2')}</h2>
-                        <h3>{t('empower')}</h3>
-                        <h4>{t('brand')}</h4>
+                        <img src={slogan} alt="slogan" />
                     </div>
                     <div className="Mission__col-2">
                     <div className="Mission__img-container">

@@ -1,9 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import ComputerGuy from '../Assets/img/asset.photo2.png';
+import ComputerGuy from '../Assets/img/foto.aceite.png';
 import { Link } from 'react-scroll';
 import suitcase from '../Assets/img/gif.maletin.gif';
 import cross from '../Assets/img/gif.medicina.gif';
+import list from '../Assets/img/iconopatient.png';
 
 
 import './About.css';
@@ -34,6 +35,10 @@ const About = () => {
                             <div className="about-items">
                                 <img className="img1" src={cross} alt="cross" />
                                 <p className="about__main-p">{t('about-4')}</p>
+                            </div>
+                            <div className="about-items">
+                                <img className="img3" src={list} alt="list" />
+                                <p className="about__main-p">{t('about-6')}</p>
                             </div>
                             <div className="about-btn__container">
                                 <Link
