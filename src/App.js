@@ -11,6 +11,8 @@ import Footer from './components/Footer';
 import { Link } from 'react-scroll';
 
 import WorldImg from './Assets/img/mundo.png'
+import calendar from './Assets/img/iconocalendario.png'
+import prospera from './Assets/img/logoprospera.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -71,7 +73,7 @@ function App() {
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          <div className="modal-world__container">
+          {/*<div className="modal-world__container">
             <img src={WorldImg} alt="World" />
           </div>
           <p><b>Want to change language?</b></p>
@@ -80,6 +82,19 @@ function App() {
           <div className="modal-languages__container">
             <button className="btn modal-language-btn" onClick={() => changeLanguageOnSelect('es')}>Español</button>
             <button className="btn modal-language-btn" onClick={() => changeLanguageOnSelect('po')}>Português</button>
+            <p className="modal-languages-no-change" onClick={handleCloseModal} >No thanks</p>
+          </div>*/}
+          <div className="modal-world__container">
+            <img src={calendar} alt="calendar" />
+          </div>
+          <p className="naranjafuego"><b>Live Online Workshop!</b></p>
+          <p><b>August 14 at 3pm.</b></p>
+          <p><i>Business Opportunities in the Hemp Industry</i></p>
+          <div className="modal-world__container2">
+            <img src={prospera} alt="prospera" />
+          </div>          
+          <div className="modal-languages__container">
+            <button className="btn modal-language-btn" ><a href="https://prosperausa.webex.com/prosperausa-en/onstage/g.php?MTID=ed5247bd982412199b3e4fef73374d155" target="__blank">Join Free!</a></button>
             <p className="modal-languages-no-change" onClick={handleCloseModal} >No thanks</p>
           </div>
         </Modal.Body>

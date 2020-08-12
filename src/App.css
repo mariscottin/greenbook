@@ -12,11 +12,26 @@
   margin-bottom: 25px;
 }
 
+.modal-world__container2{
+  width: 190px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.naranjafuego{
+  color: #df803c;
+  font-size: 20px;
+}
+
 .modal-dialog {
   margin-top: 100px;
 }
 
 .modal-world__container img{
+  width: 100%;
+}
+
+.modal-world__container2 img{
   width: 100%;
 }
 
