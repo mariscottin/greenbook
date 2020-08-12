@@ -102,6 +102,7 @@ const Footer = () => {
             </div>
             <div className="right">
                 <p>The Green Book Academy &copy;</p>
+                <h1>{t('foot-1')}<span>{t('foot-2')}</span></h1>
             </div>
         </div>
     )

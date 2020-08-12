@@ -9,17 +9,10 @@ const Approach = () => {
     return (
         <div className="approach__section" id="approachSection">
             <div className="approach__container">
-                <div className="approach__row">
-                    <div className="approach__col-1">
-                        <div className="approach__img-container">
-                            <img src={GreenGirlLogo} alt="Green Girl Logo" />
-                        </div>
-                    </div>
-                    <div className="approach__col-2">
-                        <div className="green-line"></div>
-                        <h4>{t('approach-1')}</h4>
-                        <h1>{t('approach-2')}<span className="about__approach"> {t('approach-3')}</span></h1>
-                    </div>
+                <div className="approach__col-2">
+                            <h4>{t('approach-1')}</h4>
+                            <h1>{t('approach-2')}</h1>
+                            <h2>{t('approach-3')}</h2>
                 </div>
             </div>
         </div>

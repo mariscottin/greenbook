@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
-    background: #225244;
+    background-image: url('../Assets/img/fondocan.png');
     color: #ffffff;
     height: 265.4px;
     position: relative;
@@ -17,7 +17,7 @@
 }
 
 .banner__container h1{
-    font-size: 51px;
+    font-size: 50px;
     font-weight: lighter;
     text-align: center;
     font-family: 'Mulish', sans-serif;
@@ -35,12 +35,12 @@
 
 @media(max-width: 767px){
     .banner__container h1{
-        font-size: 32px;
+        font-size: 38px;
     }
 }
 
 @media(max-width: 480px){
     .banner__container h1{
-        font-size: 29px;
+        font-size: 32px;
     }
 }

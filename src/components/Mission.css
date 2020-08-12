@@ -71,6 +71,11 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.Mission__col-1 img {
+    width: 300px;
+    margin-top: 30px;
+}
+
 
 @media(max-width: 1163px) {
     .Mission__section {
@@ -133,11 +138,18 @@
     .Mission__col-1 {
         padding-bottom: 40px;
     }
+    .Mission__col-1 img {
+        width: 300px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
 }
 
 @media(max-width: 480px) {
     .Mission__section {
-        padding: 50.9px 25px 0px 25px;
+        padding: 20px 25px 0px 25px;
         max-width: 1400px;
         margin: auto;
     }
@@ -158,5 +170,9 @@
         margin-top: 0px;
         font-size: 27px;
 
+    }
+    .Mission__col-1 img {
+        width: 200px;
+        margin-top: 15px;
     }
 }
