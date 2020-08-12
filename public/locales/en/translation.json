@@ -47,14 +47,18 @@
     "banner": "We provide Online and Multi-lingual Training for the Cannabis and Hemp Industry",
     "mission-1" : "Our Mission",
     "mission-2" : "Empower all members of our society, with capabilities and skills to reach real opportunities to work or start businesses in the Cannabis industry    ",
-    "contact-1": "Join us!",
-    "contact-2": "Enter your basic information to get in touch with us",
+    "contact-1": "Contact Green Book Academy",
+    "contact-2": "We are here to help and answer any question you might have",
     "contact-3": "First and Last Name",
     "contact-4": "yourcontact@email.com",
     "contact-5": "your phone number",
     "contact-6": "your career of interest",
     "contact-7": "Tell us what you think!",
     "contact-8": "Send",
+    "contact-inquiry-0": "Type of Inquiry",
+    "contact-inquiry-1": "Faculty",
+    "contact-inquiry-2": "Student",
+    "contact-inquiry-3": "Inverstors Relations",
     "career-option-1": "Horticulture Technician",
     "career-option-2": "Dispensary Technician",
     "career-option-3": "Manufacture Technician",
@@ -66,5 +70,8 @@
 
     "sent-1": "Thank you for your words!",
     "sent-2": "Your message was sent successfully!",
-    "sent-3": "We will keep you on the loop of our new releases."
+    "sent-3": "We will keep you on the loop of our new releases.",
+
+    "bottom-banner-btn-1": "Faculty Positions",
+    "bottom-banner-btn-2": "More Info!"
 }

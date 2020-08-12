@@ -55,6 +55,23 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.social-icons__container {
+    margin-left: -12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.social-icons__container a{
+    margin: 0 !important;
+}
+
+.social-icons__container svg{
+    font-size: 18px;
+    margin-left: 12px;
+}
+
 .footer-country-flags__container{
     margin: 0;
     display: flex;
@@ -92,6 +109,10 @@
 
     .footsquare ul a {
         margin-top: 18px;
+    }
+
+    .social-icons__container {
+        justify-content: flex-start;
     }
 
     .footer-country-flags__container{

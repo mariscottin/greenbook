@@ -46,14 +46,18 @@
     "banner": "Fornecemos treinamento on-line e multilíngue para a indústria de Cannabis e Cânhamo",
     "mission-1" : "Nossa missão    ",
     "mission-2" : "Capacite todos os membros da nossa sociedade, com capacidades e habilidades para alcançar oportunidades reais de trabalhar ou iniciar negócios no setor de Cannabis ",
-    "contact-1": "Junte-se a nós!",
-    "contact-2": "Complete abaixo suas informações pessoais",
+    "contact-1": "Contate a Green Book Academy",
+    "contact-2": "Estamos aqui para ajudar e responder a qualquer dúvida que você possa ter",
     "contact-3": "Nome completo",
     "contact-4": "seucontato@email.com",
     "contact-5": "o seu número de telefone",
     "contact-6": "sua carreira de interesse",
     "contact-7": "Fale conosco!",
     "contact-8": "Enviar",
+    "contact-inquiry-0": "Tipo de inquérito",
+    "contact-inquiry-1": "Faculdade",
+    "contact-inquiry-2": "Aluno",
+    "contact-inquiry-3": "Relações com investidores",
     "career-option-1": "Técnico em Horticultura",
     "career-option-2": "Técnico de dispensário",
     "career-option-3": "Técnico de Fabricação",
@@ -64,5 +68,8 @@
     "career-option-8": "Profissionais de Saúde",
     "sent-1": "Obrigado pelo seu comentário!",
     "sent-2": "Sua mensagem foi enviada com sucesso!",
-    "sent-3": "Manteremos você informado sobre nossos novos lançamentos."
+    "sent-3": "Manteremos você informado sobre nossos novos lançamentos.",
+
+    "bottom-banner-btn-1": "Faculty Positions",
+    "bottom-banner-btn-2": "Mais Informações!"
 }

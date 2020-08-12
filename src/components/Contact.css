@@ -26,11 +26,22 @@
 .contact-title__container h1{
     font-size: 44px;
     font-family: 'Mulish', sans-serif;
+    margin-bottom: 18px;
 }
 
 .contact-title__container h3{
     font-size: 26px;
     font-family: 'Mulish', sans-serif;
+    margin-bottom: 18px;
+}
+
+.phone-email__container{
+    display: flex;
+    margin-left: -70px;
+}
+
+.phone-email__container h3{
+    margin-left: 70px;
 }
 
 .contact-form__container{
@@ -66,6 +77,27 @@
 select:required:invalid {
     color: rgba(110, 117, 125);
   }
+
+.inquiry-type__container{
+    padding-left: 6px;
+    padding-bottom: 12px;
+}
+
+.inquiry-type__container h6{
+    margin-left: 2px;
+    font-weight: bolder;
+}
+
+.form-check__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -18px;
+}
+
+.form-check__container .form-check{
+    margin-left: 18px;
+}
 
 .textarea-inline{
     display: flex;
@@ -132,6 +164,17 @@ select:required:invalid {
     .contact-title__container h1, .contact-title__container h3{
         width: 70%;
         margin: auto;
+        margin-bottom: 18px;
+    }
+
+    .phone-email__container{
+        display: block;
+        margin-left: auto;
+    }
+    
+    .phone-email__container h3{
+        margin-left: auto;
+        font-size: 22px;
     }
 
     .form__contact-form{
@@ -203,6 +246,21 @@ select:required:invalid {
     
 }
 
+@media(max-width: 512px){
+    .phone-email__container h3{
+        font-size: 18px;
+    }
+
+    .form-check__container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-check__container .form-check{
+        margin-top: 8px;
+    }
+}
+
 @media(max-width: 480px){
 
     .contact-title__container{
@@ -227,3 +285,12 @@ select:required:invalid {
     }
 }
 
+@media(max-width: 405px){
+    .contact-title__container img{
+        height: 16px;
+    }
+    .phone-email__container h3{
+        font-size: 12px;
+    }
+
+}
