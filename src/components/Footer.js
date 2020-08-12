@@ -100,9 +100,11 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="right">
-                <p>The Green Book Academy &copy;</p>
-                <h1>{t('foot-1')}<span>{t('foot-2')}</span></h1>
+            <div className="bottom-footer">
+                <div className="bottom-footer__container">
+                    <p>The Green Book Academy &copy;</p>
+                    <p>{t('foot-1')}<span><a href={`mailto:${t('foot-2')}`}>{t('foot-2')}</a></span></p>
+                </div>
             </div>
         </div>
     )
