@@ -286,6 +286,16 @@ select:required:invalid {
         margin-top: 8px;
     }
 
+    .phone-email__container .phone-icon{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .phone-email__container .email-icon{
+        width: 24px;
+        height: 18px;
+    }
+
     .form-control{
         font-size: 13px;
     }
@@ -301,16 +311,6 @@ select:required:invalid {
     }
     .phone-email__container h3{
         font-size: 12px;
-    }
-
-    .phone-email__container .phone-icon{
-        width: 24px;
-        height: 24px;
-    }
-    
-    .phone-email__container .email-icon{
-        width: 24px;
-        height: 18px;
     }
 
 }
