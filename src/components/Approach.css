@@ -33,7 +33,7 @@
     font-size: 22px;
 }
 
-.approach__col-2 h2 {
+.approach__col-2 h1 span {
     color: #69ab88;
     font-size: 45px;
     margin-top: 0px;
@@ -100,12 +100,12 @@
         margin-top: 20px;
     }
     .approach__col-2 h4 {
-  
         font-size: 28px;
     }
-    .approach__col-2 h2 {
-
+    .approach__col-2 h1 span {
         font-size: 28px;
+        line-height: 2.4rem;
+
     }
 
     .approach__col-1 {

@@ -296,7 +296,7 @@ select:required:invalid {
         height: 18px;
     }
 
-    .form-control{
+    .form-control, .form-check label, .inquiry-type__container h6{
         font-size: 13px;
     }
 
