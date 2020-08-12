@@ -94,7 +94,7 @@ function App() {
             <img src={prospera} alt="prospera" />
           </div>          
           <div className="modal-languages__container">
-            <button className="btn modal-language-btn" ><a href="https://prosperausa.webex.com/prosperausa-en/onstage/g.php?MTID=ed5247bd982412199b3e4fef73374d155" target="__blank">Join Free!</a></button>
+            <a className="btn modal-language-btn"href="https://prosperausa.webex.com/prosperausa-en/onstage/g.php?MTID=ed5247bd982412199b3e4fef73374d155" target="__blank">Join Free!</a>
             <p className="modal-languages-no-change" onClick={handleCloseModal} >No thanks</p>
           </div>
         </Modal.Body>
