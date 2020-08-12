@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import ReactLoading from 'react-loading';
 import emailjs from 'emailjs-com';
 import phone from '../Assets/img/phone.png';
+import envelope from '../Assets/img/icono.email.png';
 
 import './Contact.css';
 
@@ -37,8 +38,7 @@ const Contact = (e) => {
                         <h3>{t('contact-2')}</h3>
                         <div className="phone-email__container">
                             <h3><img src={phone} alt="phone"/>  +1 (407) 227 5803</h3>
-                            {/* ACA VA LA FOTO DEL ENVELOPE EN VEZ DEL PHONE. HAY QUE HACER EL IMPORT*/}
-                            <h3><img src={phone} alt="envelope"/>  info@greenbookacademy.com</h3>
+                            <h3><img src={envelope} alt="envelope"/>  info@greenbookacademy.com</h3>
                         </div>
                     </div>
                     <div className="contact-form__container">

@@ -8,7 +8,7 @@ import PortugalFlag from '../Assets/img/portugalflag.png';
 import i18n from '../i18n';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagramSquare, faFacebookSquare, faYoutubeSquare, faLinkedin, faGooglePlusSquare } from '@fortawesome/free-brands-svg-icons'
+import { faInstagramSquare, faFacebookSquare, faYoutubeSquare, faLinkedin, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
 
 import './Footer.css';
 
@@ -72,19 +72,19 @@ const Footer = () => {
                         </Link>
 
                         <div className="social-icons__container">
-                            <a href="https://www.instagram.com" target="__blank">
+                            <a href="https://instagram.com/greenbookacademy?igshid=z1srxblehm2y" target="__blank">
                                 <FontAwesomeIcon icon={faInstagramSquare} />
                             </a>
-                            <a href="https://www.facebook.com" target="__blank">
+                            <a href="https://m.facebook.com/greenbookacademy/?tsid=0.3278904984407037&source=result" target="__blank">
                                 <FontAwesomeIcon icon={faFacebookSquare} />
                             </a>
-                            <a href="https://www.linkedin.com" target="__blank">
+                            <a href="https://www.linkedin.com/mwlite/company/greenbook-academy" target="__blank">
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
-                            <a href="https://www.google.com" target="__blank">
-                                <FontAwesomeIcon icon={faGooglePlusSquare} />
+                            <a href="https://wa.me/14072275803" target="__blank">
+                                <FontAwesomeIcon icon={faWhatsappSquare} />
                             </a>
-                            <a href="https://www.youtube.com" target="__blank">
+                            <a href="https://m.youtube.com/channel/UCxsBxpimmfHHwg9WGxZ7bcA" target="__blank">
                                 <FontAwesomeIcon icon={faYoutubeSquare} />
                             </a>
                         </div>
