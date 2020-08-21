@@ -10,16 +10,16 @@ import Footer from './components/Footer';
 
 import { Link } from 'react-scroll';
 
-// import WorldImg from './Assets/img/mundo.png'
-import calendar from './Assets/img/iconocalendario.png'
-import prospera from './Assets/img/logoprospera.png'
+import WorldImg from './Assets/img/mundo.png'
+// import calendar from './Assets/img/iconocalendario.png'
+// import prospera from './Assets/img/logoprospera.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
 import Modal from 'react-bootstrap/Modal'
 import { useTranslation } from 'react-i18next';
-// import i18n from './i18n';
+import i18n from './i18n';
 import './App.css';
 
 
@@ -51,14 +51,14 @@ function App() {
   const handleCloseModal = () => setShowModal(false);
   const handleShowModal = () => setShowModal(true);
 
-  // const changeLanguageOnSelect = (lang) => {
-  //   changeLanguage(lang);
-  //   handleCloseModal();
-  // }
+  const changeLanguageOnSelect = (lang) => {
+    changeLanguage(lang);
+    handleCloseModal();
+  }
 
-  // const changeLanguage = code => {
-  //   i18n.changeLanguage(code);
-  // }
+  const changeLanguage = code => {
+    i18n.changeLanguage(code);
+  }
 
   const closeBottomBar = () => {
     setBottomBarDisplayed(false);
@@ -73,7 +73,7 @@ function App() {
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          {/*<div className="modal-world__container">
+          <div className="modal-world__container">
             <img src={WorldImg} alt="World" />
           </div>
           <p><b>Want to change language?</b></p>
@@ -83,8 +83,8 @@ function App() {
             <button className="btn modal-language-btn" onClick={() => changeLanguageOnSelect('es')}>Español</button>
             <button className="btn modal-language-btn" onClick={() => changeLanguageOnSelect('po')}>Português</button>
             <p className="modal-languages-no-change" onClick={handleCloseModal} >No thanks</p>
-          </div>*/}
-          <div className="modal-world__container">
+          </div>
+          {/* <div className="modal-world__container">
             <img src={calendar} alt="calendar" />
           </div>
           <p className="naranjafuego"><b>Live Online Workshop!</b></p>
@@ -96,7 +96,7 @@ function App() {
           <div className="modal-languages__container">
             <a className="btn modal-language-btn"href="https://prosperausa.webex.com/prosperausa-en/onstage/g.php?MTID=ed5247bd982412199b3e4fef73374d155" target="__blank">Join Free!</a>
             <p className="modal-languages-no-change" onClick={handleCloseModal} >No thanks</p>
-          </div>
+          </div> */}
         </Modal.Body>
       </Modal>
       <MainNavigation />
