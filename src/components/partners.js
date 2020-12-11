@@ -5,7 +5,7 @@ import partner2 from '../Assets/img/logo2.png';
 import partner3 from '../Assets/img/logo3.png';
 import partner4 from '../Assets/img/logo4.png';
 
-import './Partners.css';
+import './partners.css';
 
 const Partners = () => {
     const { t } = useTranslation();

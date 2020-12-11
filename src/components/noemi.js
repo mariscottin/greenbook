@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import noemiimg from '../Assets/img/MIMI-1.png';
 
-import './Noemi.css';
+import './noemi.css';
 function Noemi() {
     const { t } = useTranslation();
     return (
