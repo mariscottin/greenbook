@@ -43,6 +43,14 @@
   margin: auto;
 }
 
+.modal-language-btn a{
+  color: #fff;
+}
+
+.modal-language-btn a:hover{
+  text-decoration: none;
+}
+
 .modal-language-btn{
   background: #df803c;
   color: #fff;

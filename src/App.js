@@ -52,12 +52,12 @@ function App() {
   const handleShowModal = () => setShowModal(true);
 
   const changeLanguageOnSelect = (lang) => {
-    changeLanguage(lang);
-    handleCloseModal();
+     changeLanguage(lang);
+     handleCloseModal();
   }
 
-  const changeLanguage = code => {
-    i18n.changeLanguage(code);
+   const changeLanguage = code => {
+     i18n.changeLanguage(code);
   }
 
   const closeBottomBar = () => {
