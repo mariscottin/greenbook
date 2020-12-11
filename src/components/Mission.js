@@ -17,7 +17,7 @@ const Mission = () => {
                         <img src={slogan} alt="slogan" />
                     </div>
                     <div className="Mission__col-2">
-                    <div className="Mission__img-container">
+                        <div className="Mission__img-container">
                             <img src={Notebookgirl} alt="Green Girl Logo" />
                         </div>
                     </div>

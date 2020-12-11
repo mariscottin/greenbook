@@ -1,12 +1,7 @@
-import React from 'react';
-import { useTranslation } from 'react-i18next';
+import React from 'react'
 import noemiimg from '../Assets/img/MIMI-1.png';
 
-
-import './Noemi.css';
-
-const Noemi = () => {
-    const { t } = useTranslation();
+function Noemi() {
     return (
         <div className="about__section" id="noemiSection">
             <div className="about__container">
