@@ -1,0 +1,68 @@
+#parrafo_mission {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #5d5d5d;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+
+#boton_noemi {
+    height: 52px !important;
+    width: 222px !important;
+}
+
+#individual_partner_1 img{
+    width: 140px;
+}
+
+#individual_partner_2 img{
+    width: 170px;
+}
+
+#individual_partner_3 img{
+    width: 200px;
+}
+
+#individual_partner_4 img{
+    width: 230px;
+}
+
+
+
+@media (max-width: 700px) {
+    #parrafo_mission {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+    #contenedor_boton_noemi {
+        margin-left: 50px;
+    }
+
+    #individual_partner_1 img{
+        width: 90px;
+    }
+    
+    #individual_partner_2 img{
+        width: 120px;
+    }
+
+    #individual_partner_3 img{
+        width: 130px;
+        margin-top: 30px;
+    }
+    
+    #individual_partner_4 img{
+        margin-top: 30px;
+        width: 145px;
+    }
+
+    #partners_display_mobile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+    
+}
