@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Multi", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 .slide-in-top-enter {
@@ -35,7 +35,6 @@ body {
   font-size: 18px !important;
   height: 48px !important;
   width: 160px !important;
-  font-family: 'Mulish', sans-serif;
   font-weight: bold;
 }
 

@@ -7,8 +7,8 @@ import Banner from './components/Banner';
 import Mission from './components/Mission';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Noemi from './components/noemi';
-import Partners from './components/partners';
+import Noemi from './components/Noemi';
+import Partners from './components/Partners';
 
 import { Link } from 'react-scroll';
 
@@ -37,10 +37,10 @@ function App() {
   useLayoutEffect(() => {
     const onScroll = () => {
       const scrollPos = window.scrollY + window.innerHeight;
-     
+
       if (scrollPos > 1200) {
         doShow(state => ({ ...state, bottomBar: true }));
-      } else if(scrollPos <= 1200){
+      } else if (scrollPos <= 1200) {
         doShow(state => ({ ...state, bottomBar: false }))
       }
     };
@@ -52,12 +52,12 @@ function App() {
   const handleShowModal = () => setShowModal(true);
 
   const changeLanguageOnSelect = (lang) => {
-     changeLanguage(lang);
-     handleCloseModal();
+    changeLanguage(lang);
+    handleCloseModal();
   }
 
-   const changeLanguage = code => {
-     i18n.changeLanguage(code);
+  const changeLanguage = code => {
+    i18n.changeLanguage(code);
   }
 
   const closeBottomBar = () => {

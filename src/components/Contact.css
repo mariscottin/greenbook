@@ -2,7 +2,6 @@
     width: 100%;
     max-width: 1400px;
     margin: auto;
-    font-family: 'Mulish', sans-serif;
 }
 
 .contact__container{
@@ -25,13 +24,11 @@
 
 .contact-title__container h1{
     font-size: 44px;
-    font-family: 'Mulish', sans-serif;
     margin-bottom: 18px;
 }
 
 .contact-title__container h3{
     font-size: 26px;
-    font-family: 'Mulish', sans-serif;
     margin-bottom: 18px;
 }
 
@@ -128,7 +125,6 @@ select:required:invalid {
     text-transform: uppercase;
     background: #225244;
     color: white;
-    font-family: 'Mulish', sans-serif;
 }
 
 .send-btn:hover{

@@ -2,7 +2,6 @@
     justify-content: flex-start !important;
     max-width: 1600px;
     margin: auto;
-    font-family: 'Mulish', sans-serif;
 }
 
 .navbar-brand-img img {
@@ -32,7 +31,6 @@
     right: 22px;
     top: 20px;
     font-size: 14px;
-    font-family: 'Mulish', sans-serif;
 }
 
 .current-language__container img {
