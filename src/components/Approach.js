@@ -10,7 +10,8 @@ const Approach = () => {
             <div className="approach__container">
                 <div className="approach__col-2">
                     <h4>{t('approach-1')}</h4>
-                    <h1>{t('approach-2')}<span> {t('approach-3')}</span></h1>
+                    <h1>{t('approach-2')}</h1>
+                    <h2>{t('approach-3')}</h2>
                 </div>
             </div>
         </div>

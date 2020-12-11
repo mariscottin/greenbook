@@ -35,7 +35,6 @@
     margin-bottom: 0;
     text-align: left;
     font-weight: bold;
-    font-family: 'Mulish', sans-serif;
 }
 
 .Mission__col-1 h2 {
@@ -46,7 +45,6 @@
     font-weight: lighter;
     text-align: left;
     line-height: 3.1rem;
-    font-family: 'Mulish', sans-serif;
 }
 
 .Mission__col-1 h3 {
@@ -57,7 +55,6 @@
     font-weight: bold;
     text-align: left;
     line-height: 60px;
-    font-family: 'Mulish', sans-serif;
 }
 
 .Mission__col-1 h4 {
@@ -68,7 +65,6 @@
     font-weight: bold;
     text-align: left;
     line-height: 60px;
-    font-family: 'Mulish', sans-serif;
 }
 
 .Mission__col-1 img {

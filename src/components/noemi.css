@@ -1,0 +1,30 @@
+#parrafo_mission {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #5d5d5d;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+
+#boton_noemi {
+    height: 52px !important;
+    width: 222px !important;
+}
+
+
+
+@media (max-width: 700px) {
+    #parrafo_mission {
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+
+    #contenedor_boton_noemi{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

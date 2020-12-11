@@ -62,7 +62,6 @@
 .carousel-cover-1 h4 {
     color: #333;
     line-height: 2.1rem;
-    font-family: 'Mulish', sans-serif;
     font-weight: 500;
 }
 
@@ -84,7 +83,6 @@
 
 .carousel-cover-2 h1{
     font-size: 83px;
-    font-family: 'Mulish', sans-serif;
     font-weight: bold;
 }
 .carousel-cover-2 h1 span{
@@ -93,7 +91,6 @@
 
 .carousel-cover-2 span{
     font-weight: bold;
-    font-family: 'Mulish', sans-serif;
 }
 
 .carousel-cover-1 img{
@@ -103,13 +100,11 @@
 
 .carousel-cover-2 h4{
     font-weight: 300;
-    font-family: 'Mulish', sans-serif;
     font-size: 24px;
 }
 
 .carousel-cover-3 h1{
     font-size: 83px;
-    font-family: 'Mulish', sans-serif;
     font-weight: bold;
     color: #3d3d3d;
 }
@@ -120,13 +115,11 @@
 
 .carousel-cover-3 h4{
     font-weight: 500;
-    font-family: 'Mulish', sans-serif;
     color: #3d3d3d;
 }
 
 .carousel-cover-3 span{
     font-weight: bold;
-    font-family: 'Mulish', sans-serif;
     color: #3d3d3d;
 }
 

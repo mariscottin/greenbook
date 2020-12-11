@@ -32,7 +32,6 @@
     font-size: 32px;
     font-weight: bold;
     color: #5d5d5d;
-    font-family: 'Mulish', sans-serif;
 }
 
 .green-linex {
@@ -69,7 +68,6 @@
     margin-top: 0;
     margin-bottom: 5px;
     font-weight: bold;
-    font-family: 'Mulish', sans-serif;
 }
 
 .about__col-2 .our-mision{
@@ -105,7 +103,6 @@
     font-size: 27px;
     font-weight: 500;
     color: #5d5d5d;
-    font-family: 'Mulish', sans-serif;
 }
 
 .about__col-2 .about__empower{
@@ -229,7 +226,7 @@
         height: 320px;
     }
     .about__imgs-container img{
-        width: 80%;
+        width: 100%;
     }
     .about__imgs-container .green-square{
         width: 60%;

@@ -25,13 +25,11 @@
 
 .contact-title__container h1{
     font-size: 44px;
-    font-family: 'Mulish', sans-serif;
     margin-bottom: 18px;
 }
 
 .contact-title__container h3{
     font-size: 26px;
-    font-family: 'Mulish', sans-serif;
     margin-bottom: 18px;
 }
 
@@ -286,16 +284,6 @@ select:required:invalid {
         margin-top: 8px;
     }
 
-    .phone-email__container .phone-icon{
-        width: 24px;
-        height: 24px;
-    }
-    
-    .phone-email__container .email-icon{
-        width: 24px;
-        height: 18px;
-    }
-
     .form-control, .form-check label, .inquiry-type__container h6{
         font-size: 13px;
     }
@@ -311,6 +299,16 @@ select:required:invalid {
     }
     .phone-email__container h3{
         font-size: 12px;
+    }
+
+    .phone-email__container .phone-icon{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .phone-email__container .email-icon{
+        width: 24px;
+        height: 18px;
     }
 
 }

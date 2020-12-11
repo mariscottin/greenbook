@@ -16,7 +16,6 @@
     font-size: 50px;
     color: #df803c;
     font-weight: bold;
-    font-family: 'Mulish', sans-serif;
 }
 
 .approach__col-2 h1 {
@@ -26,21 +25,19 @@
     margin-bottom: 0;
     font-weight: 500;
     line-height: 58px;
-    font-family: 'Mulish', sans-serif;
 }
 
 .approach__col-2 .learn-more {
     font-size: 22px;
 }
 
-.approach__col-2 h1 span {
+.approach__col-2 h2 {
     color: #69ab88;
     font-size: 45px;
     margin-top: 0px;
     margin-bottom: 0;
     font-weight: 600;
     line-height: 58px;
-    font-family: 'Mulish', sans-serif;
 }
 
 @media(max-width: 1163px) {
@@ -100,12 +97,12 @@
         margin-top: 20px;
     }
     .approach__col-2 h4 {
+  
         font-size: 28px;
     }
-    .approach__col-2 h1 span {
-        font-size: 28px;
-        line-height: 2.4rem;
+    .approach__col-2 h2 {
 
+        font-size: 28px;
     }
 
     .approach__col-1 {

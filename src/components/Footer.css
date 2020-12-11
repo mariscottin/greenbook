@@ -26,7 +26,6 @@
 
 .footsquare ul a {
     font-size: 16px;
-    font-family: sans-serif;
     list-style-type: none;
     color: #424241;
     margin: 10px 0;
@@ -90,7 +89,6 @@
 .bottom-footer__container p {
     color: rgba(255, 255, 255, 0.8);
     font-size: 16px;
-    font-family: 'Mulish', sans-serif;
     margin: 0;
 }
 
