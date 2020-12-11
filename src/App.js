@@ -7,7 +7,7 @@ import Banner from './components/Banner';
 import Mission from './components/Mission';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Noemi from './components/Noemi';
+import Noemi from './components/Noemi.js';
 import Partners from './components/Partners';
 
 import { Link } from 'react-scroll';
